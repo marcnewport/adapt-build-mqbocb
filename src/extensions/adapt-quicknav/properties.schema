@@ -1,0 +1,208 @@
+{
+	"type":"object",
+	"$schema": "http://json-schema.org/draft-04/schema",
+	"id": "http://jsonschema.net",
+    "required":false,
+	
+	"properties": {
+		"pluginLocations": {
+			"type":"object",
+			"required":true,
+			"properties":{
+				"contentobject": {
+					"type":"object",					
+					"properties": {
+						"_quicknav": {
+							"type":"object",
+							"required":false,
+							"legend": "Quicknav",
+						
+							"properties": {
+								"_isEnabled": {
+									"type":"boolean",
+									"required":true,
+									"default": true,
+									"title": "Enable Quicknav",
+									"inputType": { "type": "Boolean", "options": [false, true]},
+									"validators": []
+								},
+								
+								"_isEnableNextOnCompletion": {
+									"type":"boolean",
+									"required":true,
+									"default": true,
+									"title": "Enable Next on completion",
+									"inputType": { "type": "Boolean", "options": [false, true]},
+									"validators": []
+								},
+
+								"_isContinuous": {
+									"type": "string",
+									"required": true,
+									"title": "Is Continuous",
+									"enum": ["global", "local", "false"],
+									"inputType": {"type": "Select", "options":["global", "local", "false"]},
+									"default": "global",
+									"help": "global (loop through menus+pages) / local (loop through pages ) / false (disable next+prev buttons at start and end)",
+									"validators": []
+								},
+								
+								"_injectIntoSelector": {
+									"type": "string",
+									"required": false,
+									"title": "Inject into selector",
+									"default": "",
+									"inputType": "Text",
+									"help": "force append to selector instead of page",
+									"validators": []
+								},
+
+								"_buttons": {
+									"type": "object",
+									"required": true,
+									"title": "Buttons settings",
+									
+									"properties": {
+										"_hasIcons": {
+											"type":"boolean",
+											"required": true,
+											"title": "Use icons",
+											"default": false,
+											"inputType": { "type": "Boolean", "options": [false, true]},
+											"validators": []
+										},				
+										
+										"_root": {
+											"type": "object",
+											"required": true,
+											"title": "Root button",
+											"properties": {
+												"_isHidden": {
+													"type":"boolean",
+													"required": true,
+													"title": "Hide",
+													"default": false,
+													"inputType": { "type": "Boolean", "options": [false, true]},
+													"validators": []
+												},
+												"text": {
+													"type": "string",
+													"required": true,
+													"default": "Go to main menu",
+													"inputType": "Text",
+													"validators": []
+												},
+												"_icon": {
+													"type": "string",
+													"required": false,
+													"title": "Icon",
+													"default": "",
+													"inputType": "Text",
+													"validators": []
+												}
+											}
+										},
+										
+										"_up": {
+											"type": "object",
+											"required": true,
+											"title": "Up button",
+											"properties": {
+												"_isHidden": {
+													"type":"boolean",
+													"required": true,
+													"title": "Hide",
+													"default": false,
+													"inputType": { "type": "Boolean", "options": [false, true]},
+													"validators": []
+												},
+												"text": {
+													"type": "string",
+													"required": true,
+													"default": "Back to menu",
+													"inputType": "Text",
+													"validators": []
+												},
+												"_icon": {
+													"type": "string",
+													"required": false,
+													"title": "Icon",
+													"default": "",
+													"inputType": "Text",
+													"validators": []
+												}
+											}
+										},
+										
+										"_previous": {
+											"type": "object",
+											"required": true,
+											"title": "Previous button",
+											"properties": {
+												"_isHidden": {
+													"type":"boolean",
+													"required": true,
+													"title": "Hide",
+													"default": false,
+													"inputType": { "type": "Boolean", "options": [false, true]},
+													"validators": []
+												},
+												"text": {
+													"type": "string",
+													"required": true,
+													"default": "< Previous",
+													"inputType": "Text",
+													"validators": []
+												},
+												"_icon": {
+													"type": "string",
+													"required": false,
+													"title": "Icon",
+													"default": "",
+													"inputType": "Text",
+													"validators": []
+												}
+											}
+										},
+										
+										"_next": {
+											"type": "object",
+											"required": true,
+											"title": "Next button",
+											
+											"properties": {
+												"_isHidden": {
+													"type":"boolean",
+													"required": true,
+													"title": "Hide",
+													"default": false,
+													"inputType": { "type": "Boolean", "options": [false, true]},
+													"validators": []
+												},
+												"text": {
+													"type": "string",
+													"required": true,
+													"default": "Next >",
+													"inputType": "Text",
+													"validators": []
+												},
+												"_icon": {
+													"type": "string",
+													"required": false,
+													"title": "Icon",
+													"default": "",
+													"inputType": "Text",
+													"validators": []
+												}
+											}
+										}
+									}
+								}								
+							}													
+						}
+					}
+				}
+			}
+		}
+	}
+}

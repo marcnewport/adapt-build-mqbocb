@@ -1,0 +1,27 @@
+{
+  "name": "adapt-quicknav",
+  "repository": "git://github.com/cgkineo/adapt-quicknav",
+  "framework": "^2.0.0",
+  "homepage": "https://github.com/cgkineo/adapt-quicknav",
+  "issues": "https://github.com/cgkineo/adapt-quicknav/issues/",
+  "displayName": "Quick navigation",
+  "extension": "quicknav",
+  "description": "Navigation bar that is displayed within Adapt content pages, typically at the bottom.",
+  "main": "/js/adapt-quicknav.js",
+  "keywords": [
+    "adapt-plugin",
+    "adapt-extension"
+  ],
+  "license": "GPLv3",
+  "targetAttribute": "_quicknav",
+  "_release": "14df312b10",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "14df312b10d62025cbc2aa59497402ecdfb7eec4"
+  },
+  "_source": "git://github.com/cgkineo/adapt-quicknav.git",
+  "_target": "*",
+  "_originalSource": "adapt-quicknav",
+  "_direct": true
+}

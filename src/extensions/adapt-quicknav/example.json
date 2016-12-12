@@ -1,0 +1,83 @@
+// To go in the contentObject.json file for each page
+
+"_quicknav": {
+    "_isEnabled": true,
+    "_isContinuous": "global",  //global (loop through menus+pages) / local (loop through pages ) / false (disable next+prev buttons at start and end)
+    "_injectIntoSelector": "", //force append to selector instead of page
+    "_global": { //change the flow for global continuous
+        "_pageNext":"co-10", // remove if to follow normal flow
+        "_pagePrevious": "co-10" // remove if to follow normal flow
+    }, 
+    "_buttons": {
+        "_root": {
+            "_isHidden": false,
+            "text": "Go to main menu"
+        },
+        "_up": {
+            "_isHidden": false,
+            "text": "Back to menu"
+        },
+        "_previous": {
+            "_isHidden": false,
+            "text": "< Previous"
+        },
+        "_next": {
+            "_isHidden": false,
+            "text": "Next >"
+        }
+    },
+    "_isEnableNextOnCompletion": true,
+    "_lock": [
+        "co-05",
+        "co-10",
+        "co-15",
+        "co-20"
+    ]
+}
+
+// Alternative theme using icons
+"_quicknav": {
+    "_isEnabled": true,
+    "_isContinuous": "global",
+    "_injectIntoSelector": "",
+    "_global": {
+        "_pageNext":"co-10",
+        "_pagePrevious": "co-10"
+    },
+    "_buttons": {
+        "_hasIcons": true, // Add option and set to true to enable Quicknav icons
+        "_root": {
+            "_isHidden": false,
+            "text": "Menu",
+            "_icon": "icon-home" // Define using _icon for each button. Icon pulls from vanilla font set
+        },
+        "_up": {
+            "_isHidden": true,
+            "text": "Back to menu",
+            "_icon": "icon-home"
+        },
+        "_previous": {
+            "_isHidden": true,
+            "text": "Previous",
+            "_icon": "icon-controls-left"
+        },
+        "_next": {
+            "_isHidden": false,
+            "text": "Next",
+            "_icon": "icon-controls-right"
+        }
+    }
+}
+
+//to go in components.json
+//if you want a component in which to place the quicknav, please add:
+//NOTE: please remove _injectIntoSelector from above
+{
+    "_id": "c-61",
+    "_parentId": "b-48",
+    "_type": "component",
+    "_component": "quicknav",
+    "_classes": "",
+    "_layout": "full",
+    "title": "c-48"
+},

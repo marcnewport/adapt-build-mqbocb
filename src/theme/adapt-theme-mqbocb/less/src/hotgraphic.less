@@ -1,0 +1,94 @@
+.hotgraphic-component {
+
+	.hotgraphic-graphic-pin {
+		background-color: @item-text-color;
+        border: 1px solid @item-color;
+        width: 48px;
+        height: 48px;
+        position: absolute;
+        top: 0;
+        left: 0;
+
+		&.visited {
+            background-color: @item-color-visited;
+            border-color: @item-color-visited;
+
+			.hotgraphic-graphic-pin-icon {
+				color: @item-text-color;
+			}
+		}
+		.no-touch &:hover {
+			background-color: @item-color;
+            border-color: @item-color;
+
+			.hotgraphic-graphic-pin-icon {
+				color: @item-text-color;
+			}
+		}
+	}
+
+	.hotgraphic-graphic-pin-icon {
+		color: @item-color;
+        width: 46px;
+        height: 46px;
+
+        // Override icon
+        &:before {
+        	content: "+";
+            display: block;
+            line-height: 36px;
+        }
+	}
+
+	.hotgraphic-popup {
+		background-color: @foreground-color-inverted;
+		border: @item-border;
+        border-color: @item-color-dark;
+	}
+
+	.hotgraphic-popup-toolbar {
+		background-color: @item-color-dark;
+	}
+
+	.hotgraphic-popup-nav {
+		background-color: @item-color;
+	}
+
+	.hotgraphic-popup-done {
+		.no-touch &:hover {
+			.hotgraphic-popup-close {
+				color: @button-text-color-hover;
+			}
+		}
+	}
+
+	.hotgraphic-popup-arrow-l,
+	.hotgraphic-popup-arrow-r,
+	.hotgraphic-popup-close {
+		padding: @item-padding;
+		color: @button-text-color;
+	}
+
+	.hotgraphic-popup-count {
+		padding: @item-padding;
+		color: @item-text-color;
+	}
+
+	.hotgraphic-popup-controls {
+		.no-touch &:hover {
+			.hotgraphic-popup-arrow-l,
+			.hotgraphic-popup-arrow-r {
+				color: @button-text-color-hover;
+			}
+		}
+	}
+
+	.hotgraphic-popup-inner {
+		padding: @item-padding;
+	}
+
+	.hotgraphic-content-title {
+		.item-title;
+		margin-bottom: @title-text-margin;
+	}
+}

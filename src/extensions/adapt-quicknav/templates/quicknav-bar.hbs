@@ -1,0 +1,25 @@
+<div class="block-inner quicknav-inner">
+
+	{{#if config._buttons._hasIcons}}	
+
+	<button id="previous" class="button icon {{config._buttons._previous._icon}}{{#if config._buttons._previous._isHidden}} display-none{{/if}}{{#if state.isFirstPage}} disabled{{/if}}" {{#if state.isFirstPage}}disabled="disabled"{{/if}} aria-label="{{config._buttons._previous.text}}"></button>
+
+	<button id="root" class="button icon {{config._buttons._root._icon}}{{#if config._buttons._root._isHidden}} display-none{{/if}}" aria-label="{{config._buttons._root.text}}"></button>
+
+	<button id="up" class="button icon {{config._buttons._up._icon}}{{#if config._buttons._up._isHidden}} display-none{{/if}}" aria-label="{{config._buttons._up.text}}"></button>
+
+	<button id="next" class="button icon {{config._buttons._next._icon}}{{#if config._buttons._next._isHidden}} display-none{{/if}}{{#if state.isLastPage}} disabled{{/if}}" {{#if state.isLastPage}}disabled="disabled"{{/if}} aria-label="{{config._buttons._next.text}}"></button>
+
+	{{else}}
+
+	<button id="previous" class="button{{#if config._buttons._previous._isHidden}} display-none{{/if}}{{#if state.isFirstPage}} disabled{{/if}}" {{#if state.isFirstPage}}disabled="disabled"{{/if}} aria-label="{{config._buttons._previous.text}}">{{config._buttons._previous.text}}</button>
+
+	<button id="root" class="button{{#if config._buttons._root._isHidden}} display-none{{/if}}" aria-label="{{config._buttons._root.text}}">{{config._buttons._root.text}}</button>
+
+	<button id="up" class="button{{#if config._buttons._up._isHidden}} display-none{{/if}}" aria-label="{{config._buttons._up.text}}">{{config._buttons._up.text}}</button>
+
+	<button id="next" class="button{{#if config._buttons._next._isHidden}} display-none{{/if}}{{#if state.isLastPage}} disabled{{/if}}" {{#if state.isLastPage}}disabled="disabled"{{/if}} aria-label="{{config._buttons._next.text}}">{{config._buttons._next.text}}</button>
+	
+	{{/if}}
+
+</div>
