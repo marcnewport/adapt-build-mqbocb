@@ -1,6 +1,6 @@
 {
     "dependencies": {
-        "adapt-contrib-vanilla": "*",
+        "adapt-theme-mqbocb": "*",
         "adapt-contrib-text": "*",
         "adapt-contrib-narrative": "*",
         "adapt-contrib-media": "*",
@@ -22,6 +22,8 @@
         "adapt-contrib-slider": "*",
         "adapt-contrib-spoor": "*",
         "adapt-contrib-bookmarking": "*",
-        "adapt-contrib-languagePicker": "*"
+        "adapt-contrib-languagePicker": "*",
+        "adapt-hotgrid": "*",
+        "adapt-quicknav": "*"
     }
 }
