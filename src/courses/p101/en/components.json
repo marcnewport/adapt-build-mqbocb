@@ -325,7 +325,7 @@
                 "body": "This is display text 1. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.",
                 "_graphic": {
                     "src": "course/en/images/c-40-1.jpg",
-                    "srcHover":"course/en/images/c-40-1.jpg",
+                    "srcHover":"course/en/images/c-40-1-hover.jpg",
                     "srcVisited":"course/en/images/c-40-1-visited.jpg",
                     "alt": "alt text here test",
                     "title": "Item Title 1"
@@ -340,7 +340,7 @@
                 "body": "This is display text 1. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.",
                 "_graphic": {
                     "src": "course/en/images/c-40-2.jpg",
-                    "srcHover":"course/en/images/c-40-2.jpg",
+                    "srcHover":"course/en/images/c-40-2-hover.jpg",
                     "srcVisited":"course/en/images/c-40-2-visited.jpg",
                     "alt": "",
                     "title": "Item Title 2"
@@ -355,7 +355,7 @@
                 "body": "This is display text 1. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.",
                 "_graphic": {
                     "src": "course/en/images/c-40-3.jpg",
-                    "srcHover":"course/en/images/c-40-3.jpg",
+                    "srcHover":"course/en/images/c-40-3-hover.jpg",
                     "srcVisited":"course/en/images/c-40-3-visited.jpg",
                     "alt": "",
                     "title": "Item Title 3"
@@ -370,7 +370,7 @@
                 "body": "This is display text 1. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.",
                 "_graphic": {
                     "src": "course/en/images/c-40-4.jpg",
-                    "srcHover":"course/en/images/c-40-4.jpg",
+                    "srcHover":"course/en/images/c-40-4-hover.jpg",
                     "srcVisited":"course/en/images/c-40-4-visited.jpg",
                     "alt": "",
                     "title": "Item Title 4"
@@ -385,7 +385,7 @@
                 "body": "This is display text 1. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.",
                 "_graphic": {
                     "src": "course/en/images/c-40-5.jpg",
-                    "srcHover":"course/en/images/c-40-5.jpg",
+                    "srcHover":"course/en/images/c-40-5-hover.jpg",
                     "srcVisited":"course/en/images/c-40-5-visited.jpg",
                     "alt": "",
                     "title": "Item Title 5"
@@ -400,10 +400,10 @@
                 "body": "This is display text 1. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.",
                 "_graphic": {
                     "src": "course/en/images/c-40-6.jpg",
-                    "srcHover":"course/en/images/c-40-6.jpg",
+                    "srcHover":"course/en/images/c-40-6-hover.jpg",
                     "srcVisited":"course/en/images/c-40-6-visited.jpg",
                     "alt": "",
-                    "title": "Item Title 6"
+                    "title": ""
                 },
                  "_itemGraphic": {
                     "src": "course/en/images/c-40-6.jpg",
