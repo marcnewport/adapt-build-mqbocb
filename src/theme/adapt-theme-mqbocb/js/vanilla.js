@@ -43,11 +43,11 @@ define(function(require) {
     Adapt.on('popup:opened', function(popup) {
         if (popup) {
             var $component = $(popup.context);
+            var $popup = $component.find('.hotgraphic-popup');
 
             // Check if component needs to position popup over button
             if ($component.hasClass('hotgraphic-position-popup')) {
                 // Calculate the the margin needed to position the popup over the button
-                var $popup = $component.find('.hotgraphic-popup');
                 var item = $popup.get(0).classList[1];
                 var $button = $component.find('button.'+ item);
                 var buttonTop = $button.position().top;
@@ -70,7 +70,11 @@ define(function(require) {
 
             // Add faux shadow
             if ($component.hasClass('hotgraphic-component')) {
-              $('#hotgraphic-shadow').removeClass('display-none');
+              var $shadow = $('#hotgraphic-shadow');
+              $shadow.removeClass('display-none').on('click', function() {
+                $shadow.addClass('display-none').off('click');
+                $popup.get(0).style.display = 'none';
+              });
             }
         }
     });
