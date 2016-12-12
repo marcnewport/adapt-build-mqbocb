@@ -41,31 +41,47 @@ define(function(require) {
     });
 
     Adapt.on('popup:opened', function(popup) {
+        if (popup) {
+            var $component = $(popup.context);
 
-        var $component = $(popup.context);
+            // Check if component needs to position popup over button
+            if ($component.hasClass('hotgraphic-position-popup')) {
+                // Calculate the the margin needed to position the popup over the button
+                var $popup = $component.find('.hotgraphic-popup');
+                var item = $popup.get(0).classList[1];
+                var $button = $component.find('button.'+ item);
+                var buttonTop = $button.position().top;
+                var popupHeight = $popup.height();
+                var marginTop = buttonTop - (popupHeight / 2);
+                var graphicHeight = $component.find('.hotgraphic-graphic').height();
 
-        // Check if component needs to position popup over button
-        if ($component.hasClass('hotgraphic-position-popup')) {
-            // Calculate the the margin needed to position the popup over the button
-            var $popup = $component.find('.hotgraphic-popup');
-            var item = $popup.get(0).classList[1];
-            var $button = $component.find('button.'+ item);
-            var buttonTop = $button.position().top;
-            var popupHeight = $popup.height();
-            var marginTop = buttonTop - (popupHeight / 2);
-            var graphicHeight = $component.find('.hotgraphic-graphic').height();
+                // Set some boundaries
+                if (marginTop < 0) {
+                    marginTop = 0;
+                }
+                else if ((marginTop + popupHeight) > graphicHeight) {
+                    marginTop = graphicHeight - popupHeight;
+                }
 
-            // Set some boundaries
-            if (marginTop < 0) {
-                marginTop = 0;
+                $popup.css({
+                    marginTop: marginTop +'px'
+                });
             }
-            else if ((marginTop + popupHeight) > graphicHeight) {
-                marginTop = graphicHeight - popupHeight;
-            }
 
-            $popup.css({
-                marginTop: marginTop +'px'
-            })
+            // Add faux shadow
+            if ($component.hasClass('hotgraphic-component')) {
+              $('#hotgraphic-shadow').removeClass('display-none');
+            }
+        }
+    });
+
+    Adapt.on('popup:closed', function(popup) {
+        if (popup) {
+          // Remove faux shadow
+          var $component = $(popup.context);
+          if ($component.hasClass('hotgraphic-component')) {
+            $('#hotgraphic-shadow').addClass('display-none');
+          }
         }
     })
 

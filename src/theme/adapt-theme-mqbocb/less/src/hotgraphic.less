@@ -92,3 +92,16 @@
 		margin-bottom: @title-text-margin;
 	}
 }
+
+#hotgraphic-shadow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: @transparency;
+
+    .no-opacity & {
+        background-image: @transparency-fallback-png;
+    }
+}
