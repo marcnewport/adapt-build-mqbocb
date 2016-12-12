@@ -1,40 +1,7 @@
 [
-	{
+  {
 		"_id": "c-05",
 		"_parentId": "b-05",
-		"_type": "component",
-		"_component": "graphic",
-		"_classes": "",
-		"_layout": "left",
-		"title": "c-10",
-		"displayTitle": "Text and image left aligned",
-		"body": "",
-		"instruction": "",
-		"_graphic": {
-			"large": "course/en/images/c-05.jpg",
-			"small": "course/en/images/c-05.jpg",
-			"alt": "Placeholder graphic.",
-			"attribution": ""
-		}
-	},
-	{
-		"_id": "c-10",
-		"_parentId": "b-05",
-		"_type": "component",
-		"_component": "text",
-		"_classes": "",
-		"_layout": "right",
-		"title": "Introduction",
-		"displayTitle": "&nbsp;",
-		"body": "Adapt allows you to combine text and graphic components on the scrolling page to create rich and varied learning experiences. In addition, a wide range of interactive components are also available to help encourage deeper engagement with the material.<br><br>These presentation components can be structured in any way to help you create learning experiences that meet the needs of your learners.",
-		"instruction": "",
-		"_pageLevelProgress": {
-			"_isEnabled": true
-		}
-	},
-	{
-		"_id": "c-15",
-		"_parentId": "b-10",
 		"_type": "component",
 		"_component": "narrative",
 		"_classes": "",
@@ -80,7 +47,40 @@
 			"_isEnabled": true
 		}
 	},
-    {
+	{
+		"_id": "c-10",
+		"_parentId": "b-10",
+		"_type": "component",
+		"_component": "graphic",
+		"_classes": "",
+		"_layout": "left",
+		"title": "c-10",
+		"displayTitle": "Text and image left aligned",
+		"body": "",
+		"instruction": "",
+		"_graphic": {
+			"large": "course/en/images/c-05.jpg",
+			"small": "course/en/images/c-05.jpg",
+			"alt": "Placeholder graphic.",
+			"attribution": ""
+		}
+	},
+	{
+		"_id": "c-15",
+		"_parentId": "b-10",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "",
+		"_layout": "right",
+		"title": "Introduction",
+		"displayTitle": "&nbsp;",
+		"body": "Adapt allows you to combine text and graphic components on the scrolling page to create rich and varied learning experiences. In addition, a wide range of interactive components are also available to help encourage deeper engagement with the material.<br><br>These presentation components can be structured in any way to help you create learning experiences that meet the needs of your learners.",
+		"instruction": "",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+  {
 		"_id": "c-20",
 		"_parentId": "b-15",
 		"_type": "component",
