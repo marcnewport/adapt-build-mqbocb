@@ -9,6 +9,10 @@
         top: 0;
         left: 0;
 
+        .hotgraphic-graphic-pin-icon {
+            font-size: 40px;
+        }
+
 		&.visited {
             background-color: @item-color-visited;
             border-color: @item-color-visited;
@@ -25,19 +29,6 @@
 				color: @item-text-color;
 			}
 		}
-	}
-
-	.hotgraphic-graphic-pin-icon {
-		color: @item-color;
-        width: 46px;
-        height: 46px;
-
-        // Override icon
-        &:before {
-        	content: "+";
-            display: block;
-            line-height: 36px;
-        }
 	}
 
 	.hotgraphic-popup {
