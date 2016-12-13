@@ -46,15 +46,23 @@
     }
 
     .page-title {
-        // margin-bottom: @page-title-margin-bottom;
         width: 49.5%;
         float: left;
+
+        @media all and (max-width: @device-width-medium) {
+            width: 100%;
+            float: none;
+        }
     }
 
     .page-body {
-        // margin-bottom: @page-body-margin-bottom;width: 49.5%;
         width: 49.5%;
         float: right;
+
+        @media all and (max-width: @device-width-medium) {
+            width: 100%;
+            float: none;
+        }
     }
 
     .page-instruction {
