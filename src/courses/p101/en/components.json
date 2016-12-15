@@ -55,7 +55,7 @@
 		"_classes": "",
 		"_layout": "left",
 		"title": "c-10",
-		"displayTitle": "Text and image left aligned",
+		"displayTitle": "",
 		"body": "",
 		"instruction": "",
 		"_graphic": {
@@ -73,7 +73,7 @@
 		"_classes": "",
 		"_layout": "right",
 		"title": "Introduction",
-		"displayTitle": "&nbsp;",
+		"displayTitle": "",
 		"body": "Adapt allows you to combine text and graphic components on the scrolling page to create rich and varied learning experiences. In addition, a wide range of interactive components are also available to help encourage deeper engagement with the material.<br><br>These presentation components can be structured in any way to help you create learning experiences that meet the needs of your learners.",
 		"instruction": "",
 		"_pageLevelProgress": {
@@ -165,40 +165,40 @@
 				"_left": 10
 			},
 			{
-				"title": "Hot graphic item 3",
-				"body": "This is display text 3 which we’ve located over the laptop so you would expect the content to be about PCs.",
+				"title": "Hot graphic item 4",
+				"body": "This is display text 4 which we’ve located over the laptop so you would expect the content to be about PCs.",
 				"_graphic": {
 					"src": "course/en/images/single_width_small.jpg",
 					"alt": "Placeholder graphic.",
 					"_classes": ""
 				},
-				"strapline": "Hot graphic item 3",
+				"strapline": "Hot graphic item 4",
 				"_classes": "",
 				"_top": 55.9,
 				"_left": 10
 			},
 			{
-				"title": "Hot graphic item 3",
-				"body": "This is display text 3 which we’ve located over the laptop so you would expect the content to be about PCs.",
+				"title": "Hot graphic item 5",
+				"body": "This is display text 5 which we’ve located over the laptop so you would expect the content to be about PCs.",
 				"_graphic": {
 					"src": "course/en/images/single_width_small.jpg",
 					"alt": "Placeholder graphic.",
 					"_classes": ""
 				},
-				"strapline": "Hot graphic item 3",
+				"strapline": "Hot graphic item 5",
 				"_classes": "",
 				"_top": 72.6,
 				"_left": 10
 			},
 			{
-				"title": "Hot graphic item 3",
-				"body": "This is display text 3 which we’ve located over the laptop so you would expect the content to be about PCs.",
+				"title": "Hot graphic item 6",
+				"body": "This is display text 6 which we’ve located over the laptop so you would expect the content to be about PCs.",
 				"_graphic": {
 					"src": "course/en/images/single_width_small.jpg",
 					"alt": "Placeholder graphic.",
 					"_classes": ""
 				},
-				"strapline": "Hot graphic item 3",
+				"strapline": "Hot graphic item 6",
 				"_classes": "",
 				"_top": 89.5,
 				"_left": 10
@@ -271,7 +271,7 @@
 			},
 			{
 				"title": "Hot graphic item 4",
-				"body": "This is display text 3 which we’ve located over the laptop so you would expect the content to be about PCs.",
+				"body": "This is display text 4 which we’ve located over the laptop so you would expect the content to be about PCs.",
 				"_graphic": {
 					"src": "course/en/images/single_width_small.jpg",
 					"alt": "Placeholder graphic.",
@@ -403,7 +403,7 @@
                     "srcHover":"course/en/images/c-40-6-hover.jpg",
                     "srcVisited":"course/en/images/c-40-6-visited.jpg",
                     "alt": "",
-                    "title": ""
+                    "title": "Item Title 6"
                 },
                  "_itemGraphic": {
                     "src": "course/en/images/c-40-6.jpg",

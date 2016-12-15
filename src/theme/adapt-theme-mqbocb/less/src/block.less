@@ -19,8 +19,11 @@
     }
 
     .block-title {
-        margin-bottom: @block-title-margin-bottom;
-        color: @title-color;
+        margin-bottom: 0;
+        padding: @title-text-margin @component-padding;
+        padding-top: @title-text-margin + (@title-text-margin / 2);
+        background-color: @component-background-color;
+        color: @foreground-color;
         text-align: left;
 
         .dir-rtl & {
