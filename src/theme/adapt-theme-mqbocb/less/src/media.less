@@ -1,12 +1,27 @@
 .media-component {
-  .media-transcript {
-    &:hover {
-      color: @button-text-color-hover;
-      background-color: @button-color-hover;
+
+    .component-inner {
+        padding: 0;
     }
-  }
-  .media-transcript-button-container {
-  	padding-left: 0px;
-  	padding-right: 0px;
-  }
+
+    .component-header {
+        padding: @component-padding;
+        padding-bottom: 0;
+    }
+
+    .mejs-container {
+        background: @black;
+    }
+
+    .media-transcript {
+        &:hover {
+            color: @button-text-color-hover;
+            background-color: @button-color-hover;
+        }
+    }
+
+    .media-transcript-button-container {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
 }
