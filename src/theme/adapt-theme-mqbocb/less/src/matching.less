@@ -16,16 +16,10 @@
     }
   }
 
-  .matching-select-icon {
-    color: @item-text-color;
-  }
-
-  .matching-correct-icon {
-    color: @validation-success;
-  }
-
+  .matching-select-icon,
+  .matching-correct-icon,
   .matching-incorrect-icon {
-    color: @validation-error;
+    color: @item-text-color;
   }
 
   .matching-select {
@@ -71,10 +65,10 @@
     &:hover {
       color: @item-text-color-hover;
       &.matching-correct-icon {
-        color: @validation-success;
+        color: @item-text-color-hover;
       }
       &.matching-incorrect-icon {
-        color: @validation-error;
+        color: @item-text-color-hover;
       }
     }
   }
