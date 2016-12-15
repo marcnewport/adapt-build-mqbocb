@@ -1,6 +1,8 @@
 .focused,
 *:focus,
 input:focus + label {
+    outline: @focus-outline-simple;
+
     .accessibility.no-touch & {
         outline: @focus-outline;
     }
