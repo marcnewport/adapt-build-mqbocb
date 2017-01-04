@@ -6,7 +6,6 @@
 		"_component": "narrative",
 		"_classes": "",
 		"_layout": "full",
-		"_comment": "setCompletionOn = inview | allItems",
 		"_setCompletionOn": "allItems",
 		"_hasNavigationInTextArea": false,
 		"title": "About Macquarie",
@@ -50,6 +49,124 @@
 					"alt": ""
 				},
 				"strapline": "What We Stand For"
+			}
+		],
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+    {
+        "_id": "c-10",
+        "_parentId": "b-10",
+        "_type": "component",
+        "_component": "media",
+        "_classes": "",
+        "_layout": "full",
+        "_setCompletionOn": "play",
+        "_useClosedCaptions": true,
+        "_allowFullScreen": true,
+        "title":"Hear from our CEO",
+        "displayTitle": "Hear from our CEO",
+        "body": "Now listen to a message from Macquarie Group Managing Director and CEO Nicholas Moore.",
+        "instruction": "Select play to begin the video.",
+        "_media": {
+            "mp4": "course/en/video/c-10.mp4",
+            "poster": "course/en/video/c-10.jpg"
+        },
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+
+
+
+
+
+
+
+
+
+    {
+        "_id": "c-15",
+        "_parentId": "b-15",
+        "_type": "component",
+        "_component": "blank",
+        "_classes": "",
+        "title": "Macquarie's history and evolution",
+        "comment": "Timeline component still under consideration"
+    },
+    {
+		"_id": "c-20",
+		"_parentId": "b-20",
+		"_type": "component",
+		"_component": "hotgraphic",
+		"_classes": "hotgraphic-position-popup",
+		"_layout": "full",
+		"_setCompletionOn": "allItems",
+		"_canCycleThroughPagination": false,
+		"_hidePagination": false,
+		"_useGraphicsAsPins": false,
+		"title": "What's happening today?",
+		"displayTitle": "What's happening today?",
+		"body": "Let's now find out what's happening at Macquarie around the world.",
+        "instruction": "Select each icon to learn more.",
+		"mobileInstruction": "Select the arrows and then the plus icons to learn more.",
+		"_graphic": {
+			"src": "course/en/images/c-20.jpg",
+			"alt": ""
+		},
+		"_items": [
+			{
+				"title": "Australia and NZ",
+				"body": "<p>Today, Macquarie in Australia and New Zealand:</p><ul><li>Employs 6,288 people across 10 locations</li><li>Is Australia's largest global asset manager</li><li>Is ranked number one for Australian IPOs and announced and completed merger and acquisition deals in Australia</li><li>Contributes 41% of Macquarie's total operating income.</li></ul><p><em>As at 30 September 2016</em></p>",
+				"_graphic": {
+					"src": "course/en/images/c-20-1.jpg",
+					"alt": "",
+					"_classes": ""
+				},
+				"strapline": "Australia and NZ",
+				"_classes": "",
+				"_top": 10,
+				"_left": 12
+			},
+			{
+				"title": "Asia",
+				"body": "<p>Today, Macquarie in Asia:</p><ul><li>Employs 3,474 people across 13 locations in 11 countries</li><li>Manages 40+ infrastructure businesses in five Asian markets</li><li>Is a leading warrants issuer in Asia by coverage</li><li>Contributes 11% of Macquarie's total operating income.</li></ul><p><em>As at 30 September 2016</em></p>",
+				"_graphic": {
+					"src": "course/en/images/c-20-2.jpg",
+					"alt": "",
+					"_classes": ""
+				},
+				"strapline": "Asia",
+				"_classes": "",
+				"_top": 10,
+				"_left": 35
+			},
+			{
+				"title": "Americas",
+				"body": "<p>Today, Macquarie in the Americas:</p><ul><li>Employs 2,544 people across 21 locations in 4 countries</li><li>Is the third-largest marketer of physical gas in North America</li><li>Is a leading infrastructure investor with active funds across the Americas</li><li>Contributes 23% of Macquarie's total operating income.</li></ul><p><em>As at 30 September 2016</em></p>",
+				"_graphic": {
+					"src": "course/en/images/c-20-3.jpg",
+					"alt": "",
+					"_classes": ""
+				},
+				"strapline": "Americas",
+				"_classes": "",
+				"_top": 10,
+				"_left": 58.5
+			},
+			{
+				"title": "EMEA",
+				"body": "<p>Macquarie in Europe, Middle East and Africa:</p><ul><li>Employs 1,510 people across 15 locations in 10 countries</li><li>Has the number one global commodities research team based in London</li><li>Manages 50+ infrastructure and real assets business in the region</li><li>Contributes 25% of Macquarie's total operating income.</li></ul><p><em>As at 30 September 2016</em></p>",
+				"_graphic": {
+					"src": "course/en/images/c-20-3.jpg",
+					"alt": "",
+					"_classes": ""
+				},
+				"strapline": "EMEA",
+				"_classes": "",
+				"_top": 10,
+				"_left": 81.5
 			}
 		],
 		"_pageLevelProgress": {

@@ -1,0 +1,185 @@
+[
+  {
+		"_id": "c-05",
+		"_parentId": "b-05",
+		"_type": "component",
+		"_component": "narrative",
+		"_classes": "",
+		"_layout": "full",
+		"_setCompletionOn": "allItems",
+		"_hasNavigationInTextArea": false,
+		"title": "TITLE",
+		"displayTitle": "TITLE",
+		"body": "BODY",
+		"instruction": "Select the arrows to find out more.",
+		"mobileInstruction": "Select the arrows and then the plus icons to find out more.",
+		"_items": [
+            {
+				"title": "TITLE",
+				"body": "BODY",
+				"_graphic": {
+					"src": "course/en/images/c-20-1.jpg",
+					"alt": ""
+				},
+				"strapline": "STRAPLINE"
+			},
+			{
+				"title": "TITLE",
+				"body": "BODY",
+				"_graphic": {
+					"src": "course/en/images/c-20-2.jpg",
+					"alt": ""
+				},
+				"strapline": "STRAPLINE"
+			},
+			{
+				"title": "TITLE",
+				"body": "BODY",
+				"_graphic": {
+					"src": "course/en/images/c-20-3.jpg",
+					"alt": ""
+				},
+				"strapline": "STRAPLINE"
+			}
+		],
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+
+
+
+
+
+
+
+
+
+
+    {
+        "_id": "c-10",
+        "_parentId": "b-10",
+        "_type": "component",
+        "_component": "media",
+        "_classes": "",
+        "_layout": "full",
+        "_setCompletionOn": "play",
+        "_useClosedCaptions": true,
+        "_allowFullScreen": true,
+        "title":"",
+        "displayTitle": "TITLE",
+        "body": "BODY",
+        "instruction": "Select play to begin the video.",
+        "_media": {
+            "mp4": "course/en/video/c-10.mp4",
+            "poster": "course/en/video/c-10.jpg"
+        },
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+
+
+
+
+
+
+
+
+
+
+    {
+        "_id": "c-15",
+        "_parentId": "b-15",
+        "_type": "component",
+        "_component": "blank",
+        "_classes": "",
+        "title": "TITLE",
+        "comment": "COMMENT"
+    },
+
+
+
+
+
+
+
+
+
+
+    {
+		"_id": "c-20",
+		"_parentId": "b-20",
+		"_type": "component",
+		"_component": "hotgraphic",
+		"_classes": "",
+		"_layout": "full",
+		"_setCompletionOn": "allItems",
+		"_canCycleThroughPagination": false,
+		"_hidePagination": false,
+		"_useGraphicsAsPins": false,
+		"title": "TITLE",
+		"displayTitle": "TITLE",
+		"body": "BODY",
+		"instruction": "Select each icon to learn more.",
+		"mobileInstruction": "Select the arrows and then the plus icons to learn more.",
+		"_graphic": {
+			"src": "course/en/images/c-20.jpg",
+			"alt": ""
+		},
+		"_items": [
+			{
+				"title": "TITLE",
+				"body": "BODY",
+				"_graphic": {
+					"src": "course/en/images/c-20-1.jpg",
+					"alt": "",
+					"_classes": ""
+				},
+				"strapline": "STRAPLINE",
+				"_classes": "",
+				"_top": 10,
+				"_left": 10
+			},
+			{
+				"title": "TITLE",
+				"body": "BODY",
+				"_graphic": {
+					"src": "course/en/images/c-20-2.jpg",
+					"alt": "",
+					"_classes": ""
+				},
+				"strapline": "STRAPLINE",
+				"_classes": "",
+				"_top": 10,
+				"_left": 20
+			},
+			{
+				"title": "TITLE",
+				"body": "BODY",
+				"_graphic": {
+					"src": "course/en/images/c-20-3.jpg",
+					"alt": "",
+					"_classes": ""
+				},
+				"strapline": "STRAPLINE",
+				"_classes": "",
+				"_top": 10,
+				"_left": 30
+			}
+		],
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+
+
+
+
+
+
+
+
+
+
+]
