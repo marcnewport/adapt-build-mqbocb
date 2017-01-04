@@ -1,0 +1,59 @@
+[
+  {
+		"_id": "c-05",
+		"_parentId": "b-05",
+		"_type": "component",
+		"_component": "narrative",
+		"_classes": "",
+		"_layout": "full",
+		"_comment": "setCompletionOn = inview | allItems",
+		"_setCompletionOn": "allItems",
+		"_hasNavigationInTextArea": false,
+		"title": "About Macquarie",
+		"displayTitle": "About Macquarie",
+		"body": "Macquarie's breadth of expertise covers advisory and capital markets, trading and hedging, funds management, asset finance, financing, research and retail financial services.",
+		"instruction": "Select the arrows to find out more.",
+		"mobileInstruction": "Select the arrows and then the plus icons to find out more.",
+		"_items": [
+			{
+				"title": "Our operations",
+				"body": "The diversity of Macquarie's operations, combined with a strong capital position and robust risk management framework, has contributed to our 47-year record of unbroken profitability.",
+				"_graphic": {
+					"src": "course/en/images/c-15-1.jpg",
+					"alt": ""
+				},
+				"strapline": "Our operations"
+			},
+			{
+				"title": "Our people and locations",
+				"body": "<p>Macquarie employs more than 13,800 people in over 27 countries. Our global headquarters are located in Sydney, Australia.</p><p><em>As at 30 September 2016</em></p>",
+				"_graphic": {
+					"src": "course/en/images/c-15-2.jpg",
+					"alt": ""
+				},
+				"strapline": "Our people and locations"
+			},
+			{
+				"title": "Our focus",
+				"body": "Since its inception, Macquarie has differentiated itself by focusing on new opportunities, both in product and geography, progressively building expertise and expanding into adjacent areas. From aircraft leasing to financing wind farms, our teams look for market opportunities where we can add real value and deliver specialist expertise.",
+				"_graphic": {
+					"src": "course/en/images/c-15-3.jpg",
+					"alt": ""
+				},
+				"strapline": "Our focus"
+			},
+			{
+				"title": "What We Stand For",
+				"body": "<p>Our principles of Opportunity, Accountability and Integrity underpin everything we do.</p><p>Our purpose is to realise opportunity for the benefit of our clients, our shareholders and our people. We are in business to be profitable, but it is the way we do business that defines us.</p>",
+				"_graphic": {
+					"src": "course/en/images/c-15-4.jpg",
+					"alt": ""
+				},
+				"strapline": "What We Stand For"
+			}
+		],
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	}
+]
