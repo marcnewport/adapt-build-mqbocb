@@ -172,5 +172,152 @@
 		"_pageLevelProgress": {
 			"_isEnabled": true
 		}
-	}
+	},
+
+
+
+
+
+
+
+
+    {
+		"_id": "c-25-1",
+		"_parentId": "b-25",
+		"_type": "component",
+		"_component": "graphic",
+		"_classes": "",
+		"_layout": "left",
+		"title": "Our purpose",
+		"displayTitle": "",
+		"body": "",
+		"instruction": "",
+		"_graphic": {
+			"large": "course/en/images/c-25.png",
+			"small": "course/en/images/c-25.png",
+			"alt": "",
+			"attribution": ""
+		}
+	},
+	{
+		"_id": "c-25-2",
+		"_parentId": "b-25",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "",
+		"_layout": "right",
+		"title": "Our purpose",
+		"displayTitle": "",
+		"body": "Our purpose is to realise opportunity for the benefit of our clients, our shareholders and our people. We are in business to be profitable, but it is the way we do business that defines us.",
+		"instruction": "",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+    {
+  		"_id": "c-30",
+  		"_parentId": "b-30",
+  		"_type": "component",
+  		"_component": "narrative",
+  		"_classes": "",
+  		"_layout": "full",
+  		"_setCompletionOn": "allItems",
+  		"_hasNavigationInTextArea": false,
+  		"title": "Opportunity, Accountability, Integrity",
+  		"displayTitle": "Opportunity, Accountability, Integrity",
+  		"body": "Find out more about our culture, working environment, and the opportunities available to you.",
+  		"instruction": "Select the arrows to find out more.",
+  		"mobileInstruction": "Select the arrows and then the plus icons to find out more.",
+  		"_items": [
+              {
+  				"title": "Opportunity",
+  				"body": "We seek to identify opportunity and realise it for our clients, community, shareholders and our people. We start with real knowledge and skill. We encourage innovation, ingenuity and entrepreneurial spirit. We support our people to achieve and succeed. Our success is built on this.",
+  				"_graphic": {
+  					"src": "course/en/images/c-30-1.jpg",
+  					"alt": ""
+  				},
+  				"strapline": "Opportunity"
+  			},
+  			{
+  				"title": "Accountability",
+  				"body": "With opportunity comes accountability. We are accountable for all our actions, to our clients, our community, our shareholders and each other. We never compromise our standards. We take responsibility for our actions and everything we say and do is on the record. We analyse and manage risk, and we make decisions we are proud of.",
+  				"_graphic": {
+  					"src": "course/en/images/c-30-2.jpg",
+  					"alt": ""
+  				},
+  				"strapline": "Accountability"
+  			},
+  			{
+  				"title": "Integrity",
+  				"body": "We always act honestly and fairly. We honour our promises. We earn the trust of our clients, colleagues, community and shareholders through the quality of our work and our high ethical standards. We have the courage to speak up when we make a mistake or see something that doesn't seem right.",
+  				"_graphic": {
+  					"src": "course/en/images/c-30-3.jpg",
+  					"alt": ""
+  				},
+  				"strapline": "Integrity"
+  			}
+  		],
+  		"_pageLevelProgress": {
+  			"_isEnabled": true
+  		}
+  	},
+    {
+        "_id": "c-35",
+        "_parentId": "b-35",
+        "_type": "component",
+        "_component": "media",
+        "_classes": "",
+        "_layout": "full",
+        "_setCompletionOn": "play",
+        "_useClosedCaptions": true,
+        "_allowFullScreen": true,
+        "title": "What integrity means to me",
+        "displayTitle": "What integrity means to me",
+        "body": "Hear from Macquarie people about what integrity means to them.",
+        "instruction": "Select play to begin the video.",
+        "_media": {
+            "mp4": "course/en/video/c-35.mp4",
+            "poster": "course/en/video/c-35.jpg"
+        },
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+
+
+
+
+
+
+
+
+
+    
+    {
+        "_id": "c-40",
+        "_parentId":"b-40",
+        "_type":"component",
+        "_classes": "",
+        "_layout": "full",
+        "_component": "youtube",
+        "title": "Diversity at Macquarie",
+        "displayTitle": "Diversity at Macquarie",
+        "body": "The diverse experiences, skills and views of our people are key strengths and critical to the wide range of services Macquarie delivers across the globe, as well as understanding the communities in which we operate.",
+        "instruction":"Select play to hear about diversity and inclusion at Macquarie.",
+        "_setCompletionOn": "play",
+        "_media": {
+            "_source": "//www.youtube.com/embed/CazL5bwIuyA",
+            "_aspectRatio": 1.777777777777778,
+            "_autoplay": false,
+            "_showRelated": false,
+            "_loop": false,
+            "_modestBranding": true,
+            "_playbackQuality": "auto",
+            "_showAnnotations": false,
+            "_progressColor": "red"
+        },
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    }
 ]

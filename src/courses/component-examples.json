@@ -66,7 +66,7 @@
         "_setCompletionOn": "play",
         "_useClosedCaptions": true,
         "_allowFullScreen": true,
-        "title":"",
+        "title": "TITLE",
         "displayTitle": "TITLE",
         "body": "BODY",
         "instruction": "Select play to begin the video.",
@@ -181,5 +181,43 @@
 
 
 
+    {
+		"_id": "c-10",
+		"_parentId": "b-10",
+		"_type": "component",
+		"_component": "graphic",
+		"_classes": "",
+		"_layout": "left",
+		"title": "TITLE",
+		"displayTitle": "TITLE",
+		"body": "BODY",
+		"instruction": "INSTRUCTION",
+		"_graphic": {
+			"large": "course/en/images/c-05.jpg",
+			"small": "course/en/images/c-05.jpg",
+			"alt": "",
+			"attribution": ""
+		}
+	},
 
+
+
+
+
+
+	{
+		"_id": "c-10",
+		"_parentId": "b-10",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "",
+		"_layout": "right",
+		"title": "TITLE",
+		"displayTitle": "TITLE",
+		"body": "BODY",
+		"instruction": "INSTRUCTION",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
 ]
