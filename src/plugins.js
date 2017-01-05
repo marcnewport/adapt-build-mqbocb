@@ -22,6 +22,7 @@ define([
 	"components/adapt-contrib-text/js/adapt-contrib-text",
 	"components/adapt-contrib-textInput/js/adapt-contrib-textInput",
 	"components/adapt-hotgrid/js/adapt-hotgrid",
+	"components/adapt-youtube/js/adapt-youtube",
 	"menu/adapt-contrib-boxMenu/js/adapt-contrib-boxmenu",
 	"theme/adapt-contrib-vanilla/js/vanilla",
 	"theme/adapt-theme-mqbocb/js/vanilla"
