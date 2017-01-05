@@ -86,6 +86,17 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
     {
         "_id": "c-15",
         "_parentId": "b-15",
@@ -181,6 +192,18 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
     {
 		"_id": "c-25-1",
 		"_parentId": "b-25",
@@ -188,7 +211,7 @@
 		"_component": "graphic",
 		"_classes": "",
 		"_layout": "left",
-		"title": "Our purpose",
+		"title": "",
 		"displayTitle": "",
 		"body": "",
 		"instruction": "",
@@ -292,7 +315,17 @@
 
 
 
-    
+
+
+
+
+
+
+
+
+
+
+
     {
         "_id": "c-40",
         "_parentId":"b-40",
@@ -319,5 +352,508 @@
         "_pageLevelProgress": {
             "_isEnabled": true
         }
-    }
+    },
+    {
+		"_id": "c-45-1",
+		"_parentId": "b-45",
+		"_type": "component",
+		"_component": "graphic",
+		"_classes": "",
+		"_layout": "left",
+		"title": "",
+		"displayTitle": "",
+		"body": "",
+		"instruction": "",
+		"_graphic": {
+			"large": "course/en/images/c-45.png",
+			"small": "course/en/images/c-45.png",
+			"alt": "",
+			"attribution": ""
+		}
+	},
+	{
+		"_id": "c-45-2",
+		"_parentId": "b-45",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "",
+		"_layout": "right",
+		"title": "Diversity and inclusion",
+		"displayTitle": "",
+		"body": "In every one of our offices you'll find individuals from varied backgrounds with different ways of thinking, different skills and different experiences. At Macquarie we value the innovation and creativity that diversity of thought brings.",
+		"instruction": "",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+    {
+		"_id": "c-50",
+		"_parentId": "b-50",
+		"_type": "component",
+		"_component": "hotgrid",
+        "_classes": "",
+        "_layout": "full",
+        "title": "Own your future",
+        "displayTitle": "Own your future",
+        "body": "Macquarie provides a range of opportunities for development. You will be able to build your experience through challenging assignments, pursue new initiatives and learn from the best — your peers. This will enable you to be your best and to demonstrate your skills.",
+        "instruction": "Select each icon to learn how our people take advantage of opportunities and own their careers.",
+		"mobileInstruction": "Select the arrows followed by the plus icon to learn how our people take advantage of opportunities and drive their careers.",
+        "_columns": 6,
+        "_items": [
+            {
+                "title": "Lisa's story",
+                "body": "<p>Lisa, Division Director, Macquarie Capital (MacCap), New York</p><p>\"If there is something new that you would like to try or an area you are interested in, speak up and be yourself.\"</p><p>I'm a Managing Director in the Debt Capital Markets team in New York. I started my career at Macquarie in 2011. Since then, I have been part of a lot of firsts here, including Macquarie Capital's first sole bookrun bond transaction in the US.</p><p>Visit <a href=\"http://macnet.internal.macquarie.com/central/about/who/people\" target=\"_blank\">Macnet</a> for the full story.</p>",
+                "_graphic": {
+                    "src": "course/en/images/c-50-1.jpg",
+                    "srcHover":"course/en/images/c-50-1-hover.jpg",
+                    "srcVisited":"course/en/images/c-50-1-visited.jpg",
+                    "alt": "",
+                    "title": "Lisa's story"
+                },
+                 "_itemGraphic": {
+                    "src": "course/en/images/c-50-1.jpg",
+                    "alt": ""
+                }
+            },
+            {
+                "title": "Andrew's story",
+                "body": "<p>Andrew, Division Director, Corporate and Asset Finance, Sydney</p><p>\"It is the intelligence and work ethic of the people that really stand out. This is a clear differentiator in our marketplace\".</p><p>As the enterprise sales manager for Macquarie Equipment Finance in ANZ, I lead a sales team which lends money to public and large enterprise sectors. A career highlight of mine was the establishment and building of Macquarie's Equipment Finance business in Canada.</p><p>Visit <a href=\"http://macnet.internal.macquarie.com/central/about/who/people\" target=\"_blank\">Macnet</a> for the full story.</p>",
+                "_graphic": {
+                    "src": "course/en/images/c-50-2.jpg",
+                    "srcHover":"course/en/images/c-50-2-hover.jpg",
+                    "srcVisited":"course/en/images/c-50-2-visited.jpg",
+                    "alt": "",
+                    "title": "Andrew's story"
+                },
+                 "_itemGraphic": {
+                    "src": "course/en/images/c-50-2.jpg",
+                    "alt": ""
+                }
+            },
+            {
+                "title": "Gavin's story",
+                "body": "<p>Gavin, Division Director, Macquarie Securities Group (MSG), Hong Kong</p><p>\"Working in a variety of offices has taught me the importance of teamwork and responsibility. I've been able to build my own strong client base within a supportive and professional setting.\"</p><p>In 2005 I started as a graduate in MSG in Singapore before transitioning into sales trading in 2006. I moved to HK in August 2009 and made AD in 2010. I was promoted to Head of HK/China Sales Trading in September 2012.</p><p>Visit <a href=\"http://macnet.internal.macquarie.com/central/about/who/people\" target=\"_blank\">Macnet</a> for the full story.</p>",
+                "_graphic": {
+                    "src": "course/en/images/c-50-3.jpg",
+                    "srcHover":"course/en/images/c-50-3-hover.jpg",
+                    "srcVisited":"course/en/images/c-50-3-visited.jpg",
+                    "alt": "",
+                    "title": "Gavin's story"
+                },
+                 "_itemGraphic": {
+                    "src": "course/en/images/c-50-3.jpg",
+                    "alt": ""
+                }
+            },
+            {
+                "title": "Shemara's story",
+                "body": "<p>Shemara, Group Head Macquarie Asset Management (MAM), Sydney</p><p>\"I encourage my staff to think of themselves as a business owner; to take ownership and responsibility.\"</p><p>I've been at Macquarie for over 20 years – I started as a graduate when we had only 300 people and during my time I've seen the business grow and likewise I've grown with it. I'm now Group Head of MAM, managing a team of 1,500 across 21 countries. My career at Macquarie has taken me to nine different cities across six countries.</p><p>Visit <a href=\"http://macnet.internal.macquarie.com/central/about/who/people\" target=\"_blank\">Macnet</a> for the full story.</p>",
+                "_graphic": {
+                    "src": "course/en/images/c-50-4.jpg",
+                    "srcHover":"course/en/images/c-50-4-hover.jpg",
+                    "srcVisited":"course/en/images/c-50-4-visited.jpg",
+                    "alt": "",
+                    "title": "Shemara's story"
+                },
+                 "_itemGraphic": {
+                    "src": "course/en/images/c-50-4.jpg",
+                    "alt": ""
+                }
+            },
+            {
+                "title": "Dana's story",
+                "body": "<p>Dana, Senior Manager, Banking and Financial Services (BFS), Sydney</p><p>\"Initiative gets rewarded, and whilst success is the aim, failure is seen as a learning opportunity.\"</p><p>My role as Strategic Advice Specialist entails meeting with high net-worth individual clients of the Macquarie Private Bank to provide advice on how best to structure their financial assets. My best career achievement has been proactively providing advice to a client based on a good understanding of his situation, his long-term goals and prevailing legislation that ended up saving him a significant amount in taxes.</p><p>Visit <a href=\"http://macnet.internal.macquarie.com/central/about/who/people\" target=\"_blank\">Macnet</a> for the full story.</p>",
+                "_graphic": {
+                    "src": "course/en/images/c-50-5.jpg",
+                    "srcHover":"course/en/images/c-50-5-hover.jpg",
+                    "srcVisited":"course/en/images/c-50-5-visited.jpg",
+                    "alt": "",
+                    "title": "Dana's story"
+                },
+                 "_itemGraphic": {
+                    "src": "course/en/images/c-50-5.jpg",
+                    "alt": ""
+                }
+            },
+            {
+                "title": "Berna's story",
+                "body": "<p>Berna, Senior Manager, Corporate Operations Group (COG), Manila</p><p>\"I like how approachable the senior management team is and how supportive people are in driving the unified goal of providing quality service to our clients and improving our processes.\"</p><p>I am the HR Information Systems (HRIS) team manager, overseeing 15 staff in the administration of systems such as PeopleSoft, GPS, MyLearning and PageUp, as well as the reporting of HR data. I joined Macquarie as the first PeopleSoft HR system administrator in Manila. After a year, when HR Shared Services was founded, I was given the opportunity to lead the HRIS team and this has been a particularly rewarding experience.</p><p>Visit <a href=\"http://macnet.internal.macquarie.com/central/about/who/people\" target=\"_blank\">Macnet</a> for the full story.</p>",
+                "_graphic": {
+                    "src": "course/en/images/c-50-6.jpg",
+                    "srcHover":"course/en/images/c-50-6-hover.jpg",
+                    "srcVisited":"course/en/images/c-50-6-visited.jpg",
+                    "alt": "",
+                    "title": "Berna's story"
+                },
+                 "_itemGraphic": {
+                    "src": "course/en/images/c-50-6.jpg",
+                    "alt": ""
+                }
+            }
+        ],
+        "_pageLevelProgress": {
+			"_isEnabled": true
+		}
+    },
+    {
+ 		"_id": "c-55",
+ 		"_parentId": "b-55",
+ 		"_type": "component",
+ 		"_component": "narrative",
+ 		"_classes": "",
+ 		"_layout": "full",
+ 		"_setCompletionOn": "allItems",
+ 		"_hasNavigationInTextArea": false,
+ 		"title": "Macquarie Group Foundation",
+ 		"displayTitle": "Macquarie Group Foundation",
+ 		"body": "The Macquarie Group Foundation is one of Australia's oldest and largest corporate benefactors.",
+ 		"instruction": "Select the arrows to find out more.",
+ 		"mobileInstruction": "Select the arrows and then the plus icons to find out more.",
+ 		"_items": [
+             {
+ 				"title": "Our work",
+ 				"body": "The Foundation supports community programs around the world, focusing on the issues our people are passionate about, whether in education, health, welfare, the environment or the arts. As well as matching staff donations and fundraising, it also provides multi-year grant funding to non-profits making a difference within their community.",
+ 				"_graphic": {
+ 					"src": "course/en/images/c-55-1.jpg",
+ 					"alt": ""
+ 				},
+ 				"strapline": "Our work"
+ 			},
+ 			{
+ 				"title": "Supporting you",
+ 				"body": "If you ever donate to or raise money for charity, you can apply to the Macquarie Group Foundation for matching under our <a href=\"http://macnet.internal.macquarie.com/central/employment/ppc/community/staff-donations\" target=\"_blank\">staff support policy</a>. With one of the most generous matching policies amongst its peers, the Foundation also provides one-off donations to a non-profit organisation if you sit on its governing board as well as donates to your preferred charity when you reach 10 or 25 years' service at Macquarie.",
+ 				"_graphic": {
+ 					"src": "course/en/images/c-55-2.jpg",
+ 					"alt": ""
+ 				},
+ 				"strapline": "Supporting you"
+ 			},
+ 			{
+ 				"title": "Recognising you",
+ 				"body": "Each year, the Foundation recognises outstanding staff contributions through the <a href=\"http://cexportal.pc.internal.macquarie.com/projects/MacquarieGroupF/wai/default.aspx\" target=\"_blank\">Macquarie Staff in the Community Awards</a>. Award winners across volunteering, fundraising, pro bono and team work categories win $A10,000 for their charity, while highly commended award recipients receive $A2,000.",
+ 				"_graphic": {
+ 					"src": "course/en/images/c-55-3.jpg",
+ 					"alt": ""
+ 				},
+ 				"strapline": "Recognising you"
+ 			},
+ 			{
+ 				"title": "Funding community organisations",
+ 				"body": "There are many inspiring things being done by community organisations, large and small. The Foundation Committee's <a href=\"http://macnet.internal.macquarie.com/central/about/foundation/week#GDtabs-1-0\" target=\"_blank\">criteria</a> for evaluating community grants includes significant staff involvement in an organisation, an innovative approach to addressing the problem at hand and working in collaboration with others in that non-profit sector. We like opportunities that are innovative, genuinely responsive to community needs and where we can contribute our time and expertise, as well as our financial support. We also work to build the capacity of the non-profit sector, helping make it more efficient.",
+ 				"_graphic": {
+ 					"src": "course/en/images/c-55-4.jpg",
+ 					"alt": ""
+ 				},
+ 				"strapline": "Funding community organisations"
+ 			},
+ 			{
+ 				"title": "Get involved",
+ 				"body": "If you'd like to hear about ways you can volunteer, sign up to our <a href=\"http://cexportal.pc.internal.macquarie.com/projects/MacquarieGroupF/volunteering/default.aspxhttp:/cexportal.pc.internal.macquarie.com/projects/MacquarieGroupF/volunteering/default.aspx\" target=\"_blank\">Get Involved</a> alerts, a convenient way to find out more about local volunteering opportunities or speak to your local Foundation representative.",
+ 				"_graphic": {
+ 					"src": "course/en/images/c-55-5.jpg",
+ 					"alt": ""
+ 				},
+ 				"strapline": "Get involved"
+ 			}
+ 		],
+ 		"_pageLevelProgress": {
+ 			"_isEnabled": true
+ 		}
+ 	},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+ 		"_id": "c-60",
+ 		"_parentId": "b-60",
+ 		"_type": "component",
+ 		"_component": "narrative",
+ 		"_classes": "",
+ 		"_layout": "full",
+ 		"_setCompletionOn": "allItems",
+ 		"_hasNavigationInTextArea": false,
+ 		"title": "Our business activities",
+ 		"displayTitle": "Our business activities",
+ 		"body": "Our unique management style and strong risk culture help us to succeed.",
+ 		"instruction": "Select the arrows to learn more about our business.",
+ 		"mobileInstruction": "Select the arrows and then the plus icons to learn more about our business.",
+ 		"_items": [
+             {
+ 				"title": "Our strength",
+ 				"body": "Macquarie's strength lies in our unique structure and management style which enables our businesses to exercise significant operating freedom balanced by limits on risk and the adherence to professional standards.",
+ 				"_graphic": {
+ 					"src": "course/en/images/c-60-1.jpg",
+ 					"alt": ""
+ 				},
+ 				"strapline": "Our strength"
+ 			},
+ 			{
+ 				"title": "How we're organised",
+ 				"body": "Macquarie is comprised of six operating groups and four support groups within which individual businesses operate. These businesses work closely together, specialising in defined product or market sectors, and are committed to their client's relationship with Macquarie as a whole.",
+ 				"_graphic": {
+ 					"src": "course/en/images/c-60-2.jpg",
+ 					"alt": ""
+ 				},
+ 				"strapline": "How we're organised"
+ 			},
+ 			{
+ 				"title": "How we manage risk",
+ 				"body": "Our business activities are encompassed by a strong risk management framework and are facilitated by a number of Macquarie-wide support groups.",
+ 				"_graphic": {
+ 					"src": "course/en/images/c-60-3.jpg",
+ 					"alt": ""
+ 				},
+ 				"strapline": "How we manage risk"
+ 			}
+ 		],
+ 		"_pageLevelProgress": {
+ 			"_isEnabled": true
+ 		}
+ 	},
+    {
+		"_id": "c-65",
+		"_parentId": "b-65",
+		"_type": "component",
+		"_component": "graphic",
+		"_classes": "",
+		"_layout": "left",
+		"title": "Our organisational structure",
+		"displayTitle": "Our organisational structure",
+		"body": "",
+		"instruction": "",
+		"_graphic": {
+			"large": "course/en/images/c-65.jpg",
+			"small": "course/en/images/c-65.jpg",
+			"alt": "",
+			"attribution": ""
+		}
+	},
+    {
+		"_id": "c-70",
+		"_parentId": "b-70",
+		"_type": "component",
+		"_component": "narrative",
+		"_classes": "",
+		"_layout": "full",
+		"_setCompletionOn": "allItems",
+		"_hasNavigationInTextArea": false,
+		"title": "Operating Groups",
+		"displayTitle": "Operating Groups",
+		"body": "Explore each group's activities in more detail.",
+		"instruction": "Select the arrows to learn about each operating group.",
+		"mobileInstruction": "Select the arrows and then the plus icons to learn about each operating group.",
+		"_items": [
+            {
+				"title": "Macquarie Capital",
+				"body": "Known across Macquarie as MacCap<br><br>Group Head: Tim Bishop<br><br><strong>What we do</strong><br><br>Macquarie Capital provides advisory and capital raising services to corporate and government clients involved in public mergers and acquisitions, private treaty acquisitions and divestments, debt and equity fund raising and corporate restructuring. It also undertakes principal investing activities globally in support of its client activities.",
+				"_graphic": {
+					"src": "course/en/images/c-70-1.jpg",
+					"alt": ""
+				},
+				"strapline": "Macquarie Capital"
+			},
+			{
+				"title": "MacCap — advisory activities",
+				"body": "Advisory activities are divided into industry groups, reflecting key areas of expertise in:<br><br><ul><li>Financial institutions</li><li>Industrials</li><li>Infrastructure, utilities and renewables</li><li>Real estate</li><li>Resources (mining and energy)</li><li>Telecommunications, Media, Entertainment and Technology (TMET)</li></ul>",
+				"_graphic": {
+					"src": "course/en/images/c-70-1.jpg",
+					"alt": ""
+				},
+				"strapline": "MacCap — advisory activities"
+			},
+			{
+				"title": "Macquarie Asset Management",
+				"body": "Known across Macquarie as 'MAM'<br><br>Group head: Shemara Wikramanayake<br><br><strong>What we do</strong><br><br>Macquarie Asset Management is a full-service asset manager, offering a diverse range of capabilities and products. MAM is a top 50 global asset manager with $A491.3 billion of assets under management.",
+				"_graphic": {
+					"src": "course/en/images/c-70-3.jpg",
+					"alt": ""
+				},
+				"strapline": "Macquarie Asset Management"
+			},
+			{
+				"title": "MAM — areas of expertise",
+				"body": "Key areas of expertise include:<br><br><ul><li>Infrastructure and real asset management</li><li>Securities investment management</li><li>Tailored investment solutions over funds and listed equities</li></ul>",
+				"_graphic": {
+					"src": "course/en/images/c-70-3.jpg",
+					"alt": ""
+				},
+				"strapline": "MAM — areas of expertise"
+			},
+			{
+				"title": "Commodities and Global Markets",
+				"body": "Known across Macquarie as 'CGM'<br><br>Group Head: Andrew Downe<br><br><strong>What we do</strong><br><br>Commodities and Global Markets provides clients with risk and capital solutions across physical and financial markets. CGM provides financing financial hedging, physical execution and access to market pricing for clients exposed to commodities and financial markets.",
+				"_graphic": {
+					"src": "course/en/images/c-70-5.jpg",
+					"alt": ""
+				},
+				"strapline": "Commodities and Global Markets"
+			},
+			{
+				"title": "CGM — areas of expertise",
+				"body": "Key areas of expertise include:<br><br><ul><li>Credit markets</li><li>Energy markets</li><li>Fixed income and Currencies</li><li>Futures</li><li>Metals, Mining and Agriculture</li></ul>",
+				"_graphic": {
+					"src": "course/en/images/c-70-5.jpg",
+					"alt": ""
+				},
+				"strapline": "CGM — areas of expertise"
+			},
+			{
+				"title": "Banking and Financial Services Group",
+				"body": "Known across Macquarie as 'BFS'<br><br>Group Head: Greg Ward<br><br><strong>What we do</strong><br><br>Banking and Financial Services Group comprises Macquarie's retail banking and financial services businesses, providing a diverse range of personal banking, wealth management and business banking products and services to retail customers, advisers, brokers and business clients.",
+				"_graphic": {
+					"src": "course/en/images/c-70-7.jpg",
+					"alt": ""
+				},
+				"strapline": "Banking and Financial Services Group"
+			},
+			{
+				"title": "BFS — areas of expertise",
+				"body": "Key areas of expertise include:<br><br><ul><li>Personal Banking; mortgages, credit cards and deposits</li><li>Wealth Management; superannuation and insurance products, stockbroking, financial advice, private banking, cash management and wrap platform services</li><li>Business Banking; deposit, lending and payment solutions</li></ul>",
+				"_graphic": {
+					"src": "course/en/images/c-70-7.jpg",
+					"alt": ""
+				},
+				"strapline": "BFS — areas of expertise"
+			},
+			{
+				"title": "Corporate and Asset Finance Group",
+				"body": "<br><br>Known across Macquarie as 'CAF'<br><br>Group Co-Heads: Garry Farrell and Ben Brazil.<br><br><strong>What we do</strong><br><br>The Corporate and Asset Finance Group consists of an asset finance business which provides specialist finance and asset management solutions globally, and a lending business which provides primary financing to clients and invests in credit assets in secondary markets.",
+				"_graphic": {
+					"src": "course/en/images/c-70-9.jpg",
+					"alt": ""
+				},
+				"strapline": "Corporate and Asset Finance Group"
+			},
+			{
+				"title": "CAF — areas of expertise",
+				"body": "Key areas of expertise include:<br><br><ul><li>Aircraft, motor vehicles ad rail</li><li>Technology</li><li>Healthcare</li><li>Manufacturing</li><li>Industrial</li><li>Energy</li><li>Mining equipment</li></ul>",
+				"_graphic": {
+					"src": "course/en/images/c-70-9.jpg",
+					"alt": ""
+				},
+				"strapline": "CAF — areas of expertise"
+			}
+		],
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+    {
+		"_id": "c-75",
+		"_parentId": "b-75",
+		"_type": "component",
+		"_component": "narrative",
+		"_classes": "",
+		"_layout": "full",
+		"_setCompletionOn": "allItems",
+		"_hasNavigationInTextArea": false,
+		"title": "Support Groups",
+		"displayTitle": "Support Groups",
+		"body": "Explore each group's activities in more detail.",
+		"instruction": "Select the arrows to learn about each support group.",
+		"mobileInstruction": "Select the arrows and then the plus icons to learn about each support group.",
+		"_items": [
+            {
+				"title": "Risk Management Group",
+				"body": "Known across Macquarie as 'RMG'<br><br>Group Head: Stephen Allen<br><br><strong>What we do</strong><br><br>Macquarie's Risk Management Group is an independent, centralised unit responsible for assessing and monitoring risks across Macquarie.",
+				"_graphic": {
+					"src": "course/en/images/c-75-1.jpg",
+					"alt": ""
+				},
+				"strapline": "Risk Management Group"
+			},
+			{
+				"title": "RMG divisions",
+				"body": "RMG comprises the following divisions:<br><br><ul><li>Compliance</li><li>Credit</li><li>Internal Audit</li><li>Market Risk</li><li>Operational Risk</li><li>Prudential, Capital and Markets</li><li>Quantitative Applications</li><li>Technology</li></ul>",
+				"_graphic": {
+					"src": "course/en/images/c-75-1.jpg",
+					"alt": ""
+				},
+				"strapline": "RMG divisions"
+			},
+			{
+				"title": "Legal and Governance",
+				"body": "Known across Macquarie as 'LGL'<br><br>Group Head: Michael Herring<br><br><strong>What we do</strong><br><br>Legal and Governance provide legal advice and services which further Macquarie's goals and values and protect the financial integrity and reputation of the organisation. Legal and Governance comprises Group Legal and Corporate Governance.",
+				"_graphic": {
+					"src": "course/en/images/c-75-3.jpg",
+					"alt": ""
+				},
+				"strapline": "Legal and Governance"
+			},
+			{
+				"title": "LGL — Group Legal",
+				"body": "<strong>Group Legal</strong> provides a full range of legal services to Macquarie, from strategic legal advice on corporate transactions, to managing litigation and dispute resolution proceedings, through to advising senior management and the board on risk assessment frameworks for legal, regulatory and reputational matters.",
+				"_graphic": {
+					"src": "course/en/images/c-75-3.jpg",
+					"alt": ""
+				},
+				"strapline": "LGL — Group Legal"
+			},
+			{
+				"title": "LGL — Corporate Governance Division",
+				"body": "The <strong>Corporate Governance Division</strong> is responsible for providing services to the Macquarie Group Board, the Board Committees, Macquarie's subsidiary companies and Macquarie's Executive Committee. This division is also responsible for maintaining Macquarie's ASX listing rule compliance, employee equity schemes, professional risk and general insurances and Group-wide corporate governance matters.",
+				"_graphic": {
+					"src": "course/en/images/c-75-3.jpg",
+					"alt": ""
+				},
+				"strapline": "LGL — Corporate Governance Division"
+			},
+			{
+				"title": "Financial Management Group",
+				"body": "Known across Macquarie as 'FMG'<br><br>Group Head: Patrick Upfold<br><br><strong>What we do</strong><br><br>The Financial Management Group provides financial, tax and treasury services, as well as handling communications and investor relations, for all of Macquarie.",
+				"_graphic": {
+					"src": "course/en/images/c-75-6.jpg",
+					"alt": ""
+				},
+				"strapline": "Financial Management Group"
+			},
+			{
+				"title": "Financial Management Group — divisions",
+				"body": "FMG comprises the following divisions:<br><br><ul><li>Finance Division</li><li>Group Treasury</li><li>Taxation</li><li>Corporate Communications and Investor Relations</li></ul>",
+				"_graphic": {
+					"src": "course/en/images/c-75-6.jpg",
+					"alt": ""
+				},
+				"strapline": "Financial Management Group — divisions"
+			},
+			{
+				"title": "Corporate Operations Group",
+				"body": "Known across Macquarie as 'COG'<br><br>Group Head: Nicole Sorbara<br><br><strong>What we do</strong><br><br>Corporate Operations Group (COG) provides infrastructure, operations, advisory and risk support to Macquarie. The primary purpose of COG is to enable the entrepreneurial enterprise, and to deliver value and agility to Macquarie through the creation of an efficient and scalable operating model.",
+				"_graphic": {
+					"src": "course/en/images/c-75-8.jpg",
+					"alt": ""
+				},
+				"strapline": "Corporate Operations Group"
+			},
+			{
+				"title": "COG — divisions",
+				"body": "COG comprises the following divisions:<br><br><ul><li>Business Improvement and Strategy</li><li>Business Services</li><li>COG Business Management</li><li>COG Operational Risk Strategy and Support (CORSS)</li><li>Human Resources</li><li>Market Operations</li><li>Technology</li></ul>",
+				"_graphic": {
+					"src": "course/en/images/c-75-8.jpg",
+					"alt": ""
+				},
+				"strapline": "COG — divisions"
+			}
+		],
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	}
 ]

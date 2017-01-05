@@ -1,5 +1,5 @@
 [
-  {
+    {
 		"_id": "c-05",
 		"_parentId": "b-05",
 		"_type": "component",
@@ -78,6 +78,42 @@
             "_isEnabled": true
         }
     },
+
+
+
+
+
+
+
+
+
+    {
+        "_id": "c-00",
+        "_parentId":"b-00",
+        "_type":"component",
+        "_classes": "",
+        "_layout": "full",
+        "_component": "youtube",
+        "title": "TITLE",
+        "displayTitle": "TITLE",
+        "body": "BODY",
+        "instruction":"INSTRUCTION",
+        "_setCompletionOn": "play",
+        "_media": {
+            "_source": "//www.youtube.com/embed/mDa42EkgO1A",
+            "_aspectRatio": 1.33,
+            "_autoplay": false,
+            "_showRelated": false,
+            "_loop": false,
+            "_modestBranding": true,
+            "_playbackQuality": "hd720",
+            "_showAnnotations": false,
+            "_progressColor": "red"
+        },
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    }
 
 
 
@@ -220,4 +256,160 @@
 			"_isEnabled": true
 		}
 	},
+
+
+
+
+
+
+
+
+
+    {
+		"_id": "c-00",
+		"_parentId": "b-00",
+		"_type": "component",
+        "_component": "hotgrid",
+        "_classes": "",
+        "_layout": "full",
+        "title": "TITLE",
+        "displayTitle": "TITLE",
+        "body": "BODY",
+		"instruction": "Select each icon to learn more.",
+		"mobileInstruction": "Select the arrows and then the plus icons to learn more.",
+        "_columns": 6,
+        "_items": [
+            {
+                "title": "TITLE",
+                "body": "BODY",
+                "_graphic": {
+                    "src": "course/en/images/c-00-1.jpg",
+                    "srcHover":"course/en/images/c-00-1-hover.jpg",
+                    "srcVisited":"course/en/images/c-00-1-visited.jpg",
+                    "alt": "",
+                    "title": "TITLE"
+                },
+                 "_itemGraphic": {
+                    "src": "course/en/images/c-00-1-popup.jpg",
+                    "alt": ""
+                }
+            },
+            {
+                "title": "TITLE",
+                "body": "BODY",
+                "_graphic": {
+                    "src": "course/en/images/c-00-2.jpg",
+                    "srcHover":"course/en/images/c-00-2-hover.jpg",
+                    "srcVisited":"course/en/images/c-00-2-visited.jpg",
+                    "alt": "",
+                    "title": "TITLE"
+                },
+                 "_itemGraphic": {
+                    "src": "course/en/images/c-00-2-popup.jpg",
+                    "alt": ""
+                }
+            },
+            {
+                "title": "TITLE",
+                "body": "BODY",
+                "_graphic": {
+                    "src": "course/en/images/c-00-3.jpg",
+                    "srcHover":"course/en/images/c-00-3-hover.jpg",
+                    "srcVisited":"course/en/images/c-00-3-visited.jpg",
+                    "alt": "",
+                    "title": "TITLE"
+                },
+                 "_itemGraphic": {
+                    "src": "course/en/images/c-00-3-popup.jpg",
+                    "alt": ""
+                }
+            }
+        ],
+        "_pageLevelProgress": {
+			"_isEnabled": true
+		}
+    },
+
+
+
+
+
+
+
+
+
+    {
+		"_id": "c-00",
+		"_parentId": "b-00",
+		"_type": "component",
+		"_component": "matching",
+		"_classes": "",
+		"_layout": "full",
+		"_attempts": 1,
+		"_questionWeight": 1,
+		"_canShowModelAnswer": true,
+		"_shouldDisplayAttempts": false,
+		"_isRandom": true,
+		"title": "TITLE",
+		"displayTitle": "TITLE",
+		"body": "BODY",
+		"instruction": "INSTRUCTION",
+		"placeholder": "Select an option",
+		"_items": [
+			{
+				"text": "QUESTION",
+				"_options": [
+					{
+						"text": "OPTION",
+						"_isCorrect": true
+					},
+					{
+						"text": "OPTION",
+						"_isCorrect": false
+					},
+					{
+						"text": "OPTION",
+						"_isCorrect": false
+					},
+					{
+						"text": "OPTION",
+						"_isCorrect": false
+					}
+				]
+			},
+			{
+				"text": "QUESTION",
+				"_options": [
+					{
+						"text": "OPTION",
+						"_isCorrect": true
+					},
+					{
+						"text": "OPTION",
+						"_isCorrect": false
+					},
+					{
+						"text": "OPTION",
+						"_isCorrect": false
+					},
+					{
+						"text": "OPTION",
+						"_isCorrect": false
+					}
+				]
+			}
+		],
+		"_feedback": {
+			"correct": "CORRECT",
+			"_partlyCorrect": {
+				"final": "PARTLY"
+			},
+			"_incorrect": {
+				"final": "INCORRECT"
+			}
+		},
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	}
 ]
