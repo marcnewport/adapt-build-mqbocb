@@ -24,6 +24,7 @@
         "adapt-contrib-bookmarking": "*",
         "adapt-contrib-languagePicker": "*",
         "adapt-hotgrid": "*",
-        "adapt-quicknav": "*"
+        "adapt-quicknav": "*",
+        "adapt-youtube": "*"
     }
 }

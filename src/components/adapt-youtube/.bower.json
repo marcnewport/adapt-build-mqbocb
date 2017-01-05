@@ -1,0 +1,29 @@
+{
+  "name": "adapt-youtube",
+  "version": "1.0.1",
+  "framework": "^2.0.0",
+  "homepage": "https://github.com/cgkineo/adapt-youtube",
+  "displayName": "YouTube Player",
+  "component": "youtube",
+  "authors": [
+    "Oliver Foster <oliver.foster@kineo.com>",
+    "Matt Leathes <matt.leathes@kineo.com>"
+  ],
+  "description": "YouTube Player for Adapt",
+  "main": "/js/adapt-youtube.js",
+  "keywords": [
+    "adapt-plugin",
+    "adapt-component"
+  ],
+  "license": "GPLv3",
+  "_release": "1.0.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "v1.0.1",
+    "commit": "d648095a7d693ed23850666eb3738bc259332d18"
+  },
+  "_source": "git://github.com/cgkineo/adapt-youtube.git",
+  "_target": "~1.0.1",
+  "_originalSource": "adapt-youtube",
+  "_direct": true
+}
