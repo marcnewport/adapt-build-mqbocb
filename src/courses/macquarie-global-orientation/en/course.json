@@ -128,13 +128,12 @@
             }
         }
     },
-    "_latestTrackingId": 21,
     "_pageLevelProgress": {
         "_isEnabled": true,
         "_altText": "of components completed on this page."
     },
     "_resources": {
-        "_isEnabled": true,
+        "_isEnabled": false,
         "title": "Resources",
         "description": "View resources for this course by clicking here.",
         "_filterButtons": {
@@ -171,11 +170,6 @@
             }
         ]
     },
-    "_assessment": {
-        "_postTotalScoreToLms": true,
-        "_isPercentageBased": true,
-        "_scoreToPass": 75
-    },
     "_bookmarking": {
         "_isEnabled": true,
         "_level": "block",
@@ -185,5 +179,6 @@
             "yes": "Yes",
             "no": "No"
         }
-    }
+    },
+    "_latestTrackingId": 18
 }

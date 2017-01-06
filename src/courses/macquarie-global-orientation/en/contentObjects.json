@@ -94,7 +94,7 @@
                     "_icon": "icon-house-outline"
                 },
                 "_previous": {
-                    "_isHidden": true,
+                    "_isHidden": false,
                     "text": "Previous",
                     "_icon": "icon-controls-outline-left"
                 },
@@ -148,7 +148,7 @@
                     "_icon": "icon-house-outline"
                 },
                 "_previous": {
-                    "_isHidden": true,
+                    "_isHidden": false,
                     "text": "Previous",
                     "_icon": "icon-controls-outline-left"
                 },
@@ -202,7 +202,7 @@
                     "_icon": "icon-house-outline"
                 },
                 "_previous": {
-                    "_isHidden": true,
+                    "_isHidden": false,
                     "text": "Previous",
                     "_icon": "icon-controls-outline-left"
                 },
@@ -256,7 +256,7 @@
                     "_icon": "icon-house-outline"
                 },
                 "_previous": {
-                    "_isHidden": true,
+                    "_isHidden": false,
                     "text": "Previous",
                     "_icon": "icon-controls-outline-left"
                 },
@@ -273,10 +273,10 @@
         "_parentId": "course",
         "_type": "page",
         "_classes": "",
-        "title": "Your next steps",
-        "displayTitle": "Your next steps",
-        "pageBody": "Up for a quick challenge? Put your brilliant service knowledge to the test here.",
-        "body": "",
+        "title": "What's next?",
+        "displayTitle": "What's next?",
+        "pageBody": "You've heard our story — now, it's time to write yours.",
+        "body": "Up for a quick challenge? Put your brilliant service knowledge to the test here.",
         "_graphic": {
             "src": "course/en/images/co-30-thumb.jpg",
             "alt": ""
@@ -309,12 +309,12 @@
                     "_icon": "icon-house-outline"
                 },
                 "_previous": {
-                    "_isHidden": true,
+                    "_isHidden": false,
                     "text": "Previous",
                     "_icon": "icon-controls-outline-left"
                 },
                 "_next": {
-                    "_isHidden": false,
+                    "_isHidden": true,
                     "text": "Next",
                     "_icon": "icon-controls-outline-right"
                 }

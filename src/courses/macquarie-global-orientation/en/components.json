@@ -633,17 +633,20 @@
 		"_type": "component",
 		"_component": "graphic",
 		"_classes": "",
-		"_layout": "left",
+		"_layout": "full",
 		"title": "Our organisational structure",
 		"displayTitle": "Our organisational structure",
 		"body": "",
 		"instruction": "",
 		"_graphic": {
-			"large": "course/en/images/c-65.jpg",
-			"small": "course/en/images/c-65.jpg",
+			"large": "course/en/images/c-65.png",
+			"small": "course/en/images/c-65.png",
 			"alt": "",
 			"attribution": ""
-		}
+		},
+ 		"_pageLevelProgress": {
+ 			"_isEnabled": true
+ 		}
 	},
     {
 		"_id": "c-70",
@@ -852,6 +855,347 @@
 				"strapline": "COG — divisions"
 			}
 		],
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+    {
+		"_id": "c-80",
+		"_parentId": "b-80",
+		"_type": "component",
+		"_component": "matching",
+		"_classes": "",
+		"_layout": "full",
+		"_attempts": 2,
+		"_questionWeight": 1,
+		"_canShowModelAnswer": true,
+		"_shouldDisplayAttempts": false,
+		"_isRandom": true,
+		"title": "Match the facts",
+		"displayTitle": "Match the facts",
+		"body": "How well do you know Macquarie's operating groups? See if you can match the correct operating group to each fact.",
+		"instruction": "Choose an option from each drop down list and select Submit.",
+		"placeholder": "Select an option",
+		"_items": [
+			{
+				"text": "This funds management business is a top 50 global asset manager.",
+				"_options": [
+					{
+						"text": "Macquarie Asset Management",
+						"_isCorrect": true
+					},
+					{
+						"text": "Banking and Financial Services Group",
+						"_isCorrect": false
+					},
+					{
+						"text": "Commodities and Global Markets",
+						"_isCorrect": false
+					},
+					{
+						"text": "Macquarie Capital",
+						"_isCorrect": false
+					},
+					{
+						"text": "Corporate and Asset Finance",
+						"_isCorrect": false
+					}
+				]
+			},
+			{
+				"text": "This group provides Personal Banking, Wealth Management and Business Banking services to clients throughout Australia.",
+				"_options": [
+					{
+						"text": "Macquarie Asset Management",
+						"_isCorrect": false
+					},
+					{
+						"text": "Banking and Financial Services Group",
+						"_isCorrect": true
+					},
+					{
+						"text": "Commodities and Global Markets",
+						"_isCorrect": false
+					},
+					{
+						"text": "Macquarie Capital",
+						"_isCorrect": false
+					},
+					{
+						"text": "Corporate and Asset Finance",
+						"_isCorrect": false
+					}
+				]
+			},
+			{
+				"text": "Provides global advisory and capital raising services to corporate and government clients involved in public mergers and acquisitions, private treaty acquisitions and divestments, debt and equity fund raising and corporate restructure.",
+				"_options": [
+					{
+						"text": "Macquarie Asset Management",
+						"_isCorrect": false
+					},
+					{
+						"text": "Banking and Financial Services Group",
+						"_isCorrect": false
+					},
+					{
+						"text": "Commodities and Global Markets",
+						"_isCorrect": false
+					},
+					{
+						"text": "Macquarie Capital",
+						"_isCorrect": true
+					},
+					{
+						"text": "Corporate and Asset Finance",
+						"_isCorrect": false
+					}
+				]
+			}
+		],
+		"_feedback": {
+			"correct": "Well done!<br><br>You've matched the correct operating group to each fact.",
+			"_partlyCorrect": {
+				"final": "Only some of your matches are correct.<br><br>Close this message and try again."
+			},
+			"_incorrect": {
+				"final": "That's not quite right.<br><br>Close this message and take a look at the correct answers."
+			}
+		},
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+    {
+		"_id": "c-85",
+		"_parentId": "b-85",
+		"_type": "component",
+		"_component": "matching",
+		"_classes": "",
+		"_layout": "full",
+		"_attempts": 2,
+		"_questionWeight": 1,
+		"_canShowModelAnswer": true,
+		"_shouldDisplayAttempts": false,
+		"_isRandom": true,
+		"title": "Our support groups",
+		"displayTitle": "Our support groups",
+		"body": "How well do you know Macquarie's support groups? See if you can match the correct group to each fact.",
+		"instruction": "Choose an option from each drop down list and select Submit.",
+		"placeholder": "Select an option",
+		"_items": [
+			{
+				"text": "This support group ensures all risks are appropriately assessed and managed across Macquarie.",
+				"_options": [
+					{
+						"text": "Risk Management Group",
+						"_isCorrect": true
+					},
+					{
+						"text": "Legal and Governance",
+						"_isCorrect": false
+					},
+					{
+						"text": "Corporate Operations Group",
+						"_isCorrect": false
+					},
+					{
+						"text": "Financial Management Group",
+						"_isCorrect": false
+					}
+				]
+			},
+			{
+				"text": "This support group provides a full range of legal services to Macquarie.",
+				"_options": [
+					{
+						"text": "Risk Management Group",
+						"_isCorrect": false
+					},
+					{
+						"text": "Legal and Governance",
+						"_isCorrect": true
+					},
+					{
+						"text": "Corporate Operations Group",
+						"_isCorrect": false
+					},
+					{
+						"text": "Financial Management Group",
+						"_isCorrect": false
+					}
+				]
+			},
+			{
+				"text": "This support group provides specialist professional services, workplace infrastructure, HR, market operations and technology.",
+				"_options": [
+					{
+						"text": "Risk Management Group",
+						"_isCorrect": false
+					},
+					{
+						"text": "Legal and Governance",
+						"_isCorrect": false
+					},
+					{
+						"text": "Corporate Operations Group",
+						"_isCorrect": true
+					},
+					{
+						"text": "Financial Management Group",
+						"_isCorrect": false
+					}
+				]
+			},
+			{
+				"text": "This support group comprises delivers financial, tax, and treasury services, as well as handling communications and investor relations for all of Macquarie.",
+				"_options": [
+					{
+						"text": "Risk Management Group",
+						"_isCorrect": false
+					},
+					{
+						"text": "Legal and Governance",
+						"_isCorrect": false
+					},
+					{
+						"text": "Corporate Operations Group",
+						"_isCorrect": false
+					},
+					{
+						"text": "Financial Management Group",
+						"_isCorrect": true
+					}
+				]
+			}
+		],
+		"_feedback": {
+			"correct": "Well done!<br><br>You've matched the correct support group to each fact.",
+			"_partlyCorrect": {
+				"final": "Only some of your matches are correct.<br><br>Close this message and try again."
+			},
+			"_incorrect": {
+				"final": "That's not quite right.<br><br>Close this message and take a look at the correct answers."
+			}
+		},
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+		"_id": "c-90",
+		"_parentId": "b-90",
+		"_type": "component",
+		"_component": "narrative",
+		"_classes": "",
+		"_layout": "full",
+		"_setCompletionOn": "allItems",
+		"_hasNavigationInTextArea": false,
+		"title": "Starting your journey",
+		"displayTitle": "Starting your journey",
+		"body": "You've heard our story — you've explored our history, growth and our businesses and have a sense of what it's like to work at Macquarie. Now it's time to write your story. To own your future.",
+		"instruction": "Select the arrows for five tips for building a successful career at Macquarie.",
+		"mobileInstruction": "Select the arrows followed by the plus icon for five tips for building a successful career at Macquarie.",
+		"_items": [
+            {
+				"title": "Champion What We Stand For",
+				"body": "Act with integrity, realise opportunity and be accountable to our clients, shareholders and our communities. These are all vital to the continued growth and success of our business and key to a successful career at Macquarie.",
+				"_graphic": {
+					"src": "course/en/images/c-90-1.jpg",
+					"alt": ""
+				},
+				"strapline": "Champion What We Stand For"
+			},
+			{
+				"title": "Embrace our supportive culture",
+				"body": "Macquarie's management philosophy of opportunity with accountability is there to support you. Know your world, get out there, find the next opportunity and give it a go.",
+				"_graphic": {
+					"src": "course/en/images/c-90-2.jpg",
+					"alt": ""
+				},
+				"strapline": "Embrace our supportive culture"
+			},
+			{
+				"title": "Make a difference",
+				"body": "Make a difference for clients and colleagues. Take on the tough problems and do more than you are asked to.",
+				"_graphic": {
+					"src": "course/en/images/c-90-3.jpg",
+					"alt": ""
+				},
+				"strapline": "Make a difference"
+			},
+			{
+				"title": "Be confident",
+				"body": "Be confident in everything you do. Be resilient and grow from your mistakes.",
+				"_graphic": {
+					"src": "course/en/images/c-90-4.jpg",
+					"alt": ""
+				},
+				"strapline": "Be confident"
+			},
+			{
+				"title": "Be a generous team member",
+				"body": "Macquarie recognises that the best performing individuals are team players. Share your problems and take advantage of others' expertise and experience.",
+				"_graphic": {
+					"src": "course/en/images/c-90-5.jpg",
+					"alt": ""
+				},
+				"strapline": "Be a generous team member"
+			}
+		],
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+    {
+		"_id": "c-95-1",
+		"_parentId": "b-95",
+		"_type": "component",
+		"_component": "graphic",
+		"_classes": "",
+		"_layout": "left",
+		"title": "",
+		"displayTitle": "",
+		"body": "",
+		"instruction": "",
+		"_graphic": {
+			"large": "course/en/images/c-95.png",
+			"small": "course/en/images/c-95.png",
+			"alt": "",
+			"attribution": ""
+		}
+	},
+	{
+		"_id": "c-95-2",
+		"_parentId": "b-95",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "",
+		"_layout": "right",
+		"title": "Well done!",
+		"displayTitle": "",
+		"body": "This module is a key component in your introduction to Macquarie. We hope it has given you a feel for what it is like to work at Macquarie, what we do and how you can make the most of your career here.<br><br>Following this, you will be prompted to complete other orientation components to meet training and compliance regulations for your location.<br><br>If you have any questions about your orientation, please speak to your manager or email the HR Service Desk.<br><br>You may now close this module or return to the Menu to review any of the topics.",
+		"instruction": "",
 		"_pageLevelProgress": {
 			"_isEnabled": true
 		}
