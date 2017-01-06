@@ -4,7 +4,7 @@
     "title": "Macquarie global orientation",
     "displayTitle": "Welcome",
     "description": "Macquarie global orientation",
-    "body": "<p>Welcome to Macquarie’s Global Orientation.</p><p>Congratulations on joining Macquarie. This orientation module will help you learn about our organisation — what it's like to work here, what we do, and how you can make the most of the opportunities available to you.</p>",
+    "body": "Welcome to Macquarie's Global Orientation.<br><br>Congratulations on joining Macquarie. This orientation module will help you learn about our organisation — what it's like to work here, what we do, and how you can make the most of the opportunities available to you.",
     "_buttons": {
         "_submit": {
             "buttonText": "Submit",
@@ -180,5 +180,5 @@
             "no": "No"
         }
     },
-    "_latestTrackingId": 18
+    "_latestTrackingId": 19
 }

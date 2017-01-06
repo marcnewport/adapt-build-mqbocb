@@ -1,6 +1,6 @@
 [
     {
-        "_id": "co-05",
+        "_id": "co-100",
         "_parentId": "course",
         "_type": "page",
         "_classes": "",
@@ -9,11 +9,11 @@
         "pageBody": "In 1969, we opened our doors with three staff. Now we're a global business.",
         "body": "We've got big plans and you're an important part of them! Find out how, right here.",
         "_graphic": {
-            "src": "course/en/images/co-05-thumb.jpg",
+            "src": "course/en/images/co-100-thumb.jpg",
             "alt": ""
         },
         "pageGraphic": {
-            "src": "course/en/images/co-05-page.jpg"
+            "src": "course/en/images/co-100-page.jpg"
         },
         "linkText": "Start",
         "duration": "5 mins",
@@ -25,7 +25,7 @@
             "_isContinuous": "global",
             "_injectIntoSelector": "",
             "_global": {
-                "_pageNext": "co-10"
+                "_pageNext": "co-200"
             },
             "_buttons": {
                 "_hasIcons": true,
@@ -53,7 +53,7 @@
         }
     },
     {
-        "_id": "co-10",
+        "_id": "co-200",
         "_parentId": "course",
         "_type": "page",
         "_classes": "",
@@ -62,11 +62,11 @@
         "pageBody": "Macquarie has a history of innovation, growth and success. Here are some of the key events that have shaped our evolution into a uniquely diversified business.",
         "body": "How are we putting our plans into action in store? How will you be helping to bring them to life? All is revealed in this topic.",
         "_graphic": {
-            "src": "course/en/images/co-10-thumb.jpg",
+            "src": "course/en/images/co-200-thumb.jpg",
             "alt": ""
         },
         "pageGraphic": {
-            "src": "course/en/images/co-10-page.jpg"
+            "src": "course/en/images/co-200-page.jpg"
         },
         "linkText": "Start",
         "duration": "5 mins",
@@ -78,8 +78,8 @@
             "_isContinuous": "global",
             "_injectIntoSelector": "",
             "_global": {
-                "_pageNext": "co-15",
-                "_pagePrevious": "co-05"
+                "_pageNext": "co-300",
+                "_pagePrevious": "co-100"
             },
             "_buttons": {
                 "_hasIcons": true,
@@ -107,7 +107,7 @@
         }
     },
     {
-        "_id": "co-15",
+        "_id": "co-300",
         "_parentId": "course",
         "_type": "page",
         "_classes": "",
@@ -116,11 +116,11 @@
         "pageBody": "Our culture is shaped by our principles of Opportunity, Accountability, and Integrity. It's What We Stand For.",
         "body": "Up for a quick challenge? Put your brilliant service knowledge to the test here.",
         "_graphic": {
-            "src": "course/en/images/co-15-thumb.jpg",
+            "src": "course/en/images/co-300-thumb.jpg",
             "alt": ""
         },
         "pageGraphic": {
-            "src": "course/en/images/co-15-page.jpg"
+            "src": "course/en/images/co-300-page.jpg"
         },
         "linkText": "Start",
         "duration": "7 mins",
@@ -132,8 +132,8 @@
             "_isContinuous": "global",
             "_injectIntoSelector": "",
             "_global": {
-                "_pageNext": "co-20",
-                "_pagePrevious": "co-10"
+                "_pageNext": "co-400",
+                "_pagePrevious": "co-200"
             },
             "_buttons": {
                 "_hasIcons": true,
@@ -161,7 +161,7 @@
         }
     },
     {
-        "_id": "co-20",
+        "_id": "co-400",
         "_parentId": "course",
         "_type": "page",
         "_classes": "",
@@ -170,11 +170,11 @@
         "pageBody": "Our people are our most important asset. At Macquarie, our people have many opportunities to develop their careers. The diversity of our people is fundamental to Macquarie's success.",
         "body": "Up for a quick challenge? Put your brilliant service knowledge to the test here.",
         "_graphic": {
-            "src": "course/en/images/co-20-thumb.jpg",
+            "src": "course/en/images/co-400-thumb.jpg",
             "alt": ""
         },
         "pageGraphic": {
-            "src": "course/en/images/co-20-page.jpg"
+            "src": "course/en/images/co-400-page.jpg"
         },
         "linkText": "Start",
         "duration": "10 mins",
@@ -186,8 +186,8 @@
             "_isContinuous": "global",
             "_injectIntoSelector": "",
             "_global": {
-                "_pageNext": "co-25",
-                "_pagePrevious": "co-15"
+                "_pageNext": "co-500",
+                "_pagePrevious": "co-300"
             },
             "_buttons": {
                 "_hasIcons": true,
@@ -215,7 +215,7 @@
         }
     },
     {
-        "_id": "co-25",
+        "_id": "co-500",
         "_parentId": "course",
         "_type": "page",
         "_classes": "",
@@ -224,11 +224,11 @@
         "pageBody": "Discover the range of activities our businesses are involved in.",
         "body": "Up for a quick challenge? Put your brilliant service knowledge to the test here.",
         "_graphic": {
-            "src": "course/en/images/co-25-thumb.jpg",
+            "src": "course/en/images/co-500-thumb.jpg",
             "alt": ""
         },
         "pageGraphic": {
-            "src": "course/en/images/co-25-page.jpg"
+            "src": "course/en/images/co-500-page.jpg"
         },
         "linkText": "Start",
         "duration": "10 mins",
@@ -240,8 +240,8 @@
             "_isContinuous": "global",
             "_injectIntoSelector": "",
             "_global": {
-                "_pageNext": "co-30",
-                "_pagePrevious": "co-20"
+                "_pageNext": "co-600",
+                "_pagePrevious": "co-400"
             },
             "_buttons": {
                 "_hasIcons": true,
@@ -269,7 +269,7 @@
         }
     },
     {
-        "_id": "co-30",
+        "_id": "co-600",
         "_parentId": "course",
         "_type": "page",
         "_classes": "",
@@ -278,11 +278,11 @@
         "pageBody": "You've heard our story — now, it's time to write yours.",
         "body": "Up for a quick challenge? Put your brilliant service knowledge to the test here.",
         "_graphic": {
-            "src": "course/en/images/co-30-thumb.jpg",
+            "src": "course/en/images/co-600-thumb.jpg",
             "alt": ""
         },
         "pageGraphic": {
-            "src": "course/en/images/co-30-page.jpg"
+            "src": "course/en/images/co-600-page.jpg"
         },
         "linkText": "Start",
         "duration": "3 mins",
@@ -294,7 +294,7 @@
             "_isContinuous": "global",
             "_injectIntoSelector": "",
             "_global": {
-                "_pagePrevious": "co-25"
+                "_pagePrevious": "co-500"
             },
             "_buttons": {
                 "_hasIcons": true,
