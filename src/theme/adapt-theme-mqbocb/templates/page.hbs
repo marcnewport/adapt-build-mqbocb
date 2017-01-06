@@ -17,14 +17,16 @@
 					    </div>
 					    {{/if}}
 
-					    {{#if body}}
+					    {{#if pageBody}}
 					    <div class="page-body">
 					        <div class="page-body-inner">
-					            {{#if pageBody}}
-					            	{{{a11y_text pageBody}}}
-					            {{else}}
-					            	{{{a11y_text body}}}
-					            {{/if}}
+					            {{{a11y_text pageBody}}}
+					        </div>
+					    </div>
+                        {{else if body}}
+                        <div class="page-body">
+					        <div class="page-body-inner">
+					            {{{a11y_text body}}}
 					        </div>
 					    </div>
 					    {{/if}}
