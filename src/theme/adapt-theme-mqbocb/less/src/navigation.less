@@ -8,6 +8,11 @@
     box-shadow: 0 2px 5px rgba(0,0,0,0.26);
     height: (@navigation-padding * 2) + @icon-size;
 
+    // Force navigation-inner height so the logo works when there are no inner'eds
+    .navigation-inner {
+        height: (@navigation-padding * 2) + @icon-size;
+    }
+
     .navigation-icon {
         max-width: @device-width-large;
 		margin: auto;
