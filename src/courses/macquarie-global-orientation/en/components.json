@@ -216,8 +216,8 @@
 		"body": "",
 		"instruction": "",
 		"_graphic": {
-			"large": "course/en/images/c-305.png",
-			"small": "course/en/images/c-305.png",
+			"large": "course/en/images/c-305.jpg",
+			"small": "course/en/images/c-305-mobile.jpg",
 			"alt": "",
 			"attribution": ""
 		}
@@ -365,8 +365,8 @@
 		"body": "",
 		"instruction": "",
 		"_graphic": {
-			"large": "course/en/images/c-410.png",
-			"small": "course/en/images/c-410.png",
+			"large": "course/en/images/c-410.jpg",
+			"small": "course/en/images/c-410-mobile.jpg",
 			"alt": "",
 			"attribution": ""
 		}
@@ -639,8 +639,8 @@
 		"body": "",
 		"instruction": "",
 		"_graphic": {
-			"large": "course/en/images/c-510.png",
-			"small": "course/en/images/c-510.png",
+			"large": "course/en/images/c-510.jpg",
+			"small": "course/en/images/c-510-mobile.jpg",
 			"alt": "",
 			"attribution": ""
 		}
@@ -1212,8 +1212,8 @@
 		"body": "",
 		"instruction": "",
 		"_graphic": {
-			"large": "course/en/images/c-610.png",
-			"small": "course/en/images/c-610.png",
+			"large": "course/en/images/c-610.jpg",
+			"small": "course/en/images/c-610-mobile.jpg",
 			"alt": "",
 			"attribution": ""
 		}
