@@ -12041,5 +12041,3 @@ define('plugins',[
 	"theme/adapt-contrib-vanilla/js/vanilla",
 	"theme/adapt-theme-mqbocb/js/vanilla"
 ],function(){});
-
-//# sourceMappingURL=plugins.js.map

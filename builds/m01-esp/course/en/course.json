@@ -1,35 +1,4 @@
 {
-    "_id": "course",
-    "_type": "course",
-    "title": "Macquarie global orientation",
-    "displayTitle": "Welcome",
-    "description": "Macquarie global orientation",
-    "body": "Welcome to Macquarie's Global Orientation.<br><br>This orientation module will help you learn about our organisation — what it's like to work here, what we do, and how you can make the most of the opportunities available to you.",
-    "_buttons": {
-        "_submit": {
-            "buttonText": "Submit",
-            "ariaLabel": "Submit your answer by clicking here."
-        },
-        "_reset": {
-            "buttonText": "Reset",
-            "ariaLabel": "Reset the question by clicking here."
-        },
-        "_showCorrectAnswer": {
-            "buttonText": "Correct answer",
-            "ariaLabel": "Show the correct answer by clicking here."
-        },
-        "_hideCorrectAnswer": {
-            "buttonText": "My answer",
-            "ariaLabel": "Show the answer you gave by clicking here."
-        },
-        "_showFeedback": {
-            "buttonText": "Show feedback",
-            "ariaLabel": "View the question feedback again by clicking here."
-        },
-        "remainingAttemptsText": "attempts remaining",
-        "remainingAttemptText": "final attempt",
-        "disabledAriaLabel": "This button is disabled at the moment."
-    },
     "_globals": {
         "_components": {
             "_accordion": {
@@ -43,6 +12,7 @@
             },
             "_hotgraphic": {
                 "ariaRegion": "Below is a component which allows you to select hot spots over an image. Select a hot spot to trigger a popup that includes an image with display text. Select the close button to close the popup.",
+                "ariaPoupupLabel": "Hotgraphic popup",
                 "ariaPopupLabel": "Hotgraphic popup"
             },
             "_matching": {
@@ -66,6 +36,13 @@
             },
             "_textinput": {
                 "ariaRegion": "This question component requires you to input your answer in the textbox provided. When you have answered the question select the submit button below."
+            },
+            "_hotgrid": {
+                "ariaRegion": "This component contains selectable grid items. Select an item to trigger a popup that includes an image with display text. Select the close button to close the popup."
+            },
+            "_youtube": {
+                "ariaRegion": "This is a media component which displays a YouTube video. Select the play / pause button to watch it.",
+                "transcriptButton": "Alternatively you can select the link below for the transcript."
             }
         },
         "_extensions": {
@@ -128,6 +105,37 @@
             }
         }
     },
+    "_id": "course",
+    "_type": "course",
+    "title": "Macquarie global orientation",
+    "displayTitle": "Welcome",
+    "description": "Macquarie global orientation",
+    "body": "Welcome to Macquarie's Global Orientation.<br><br>This orientation module will help you learn about our organisation — what it's like to work here, what we do, and how you can make the most of the opportunities available to you.",
+    "_buttons": {
+        "_submit": {
+            "buttonText": "Submit",
+            "ariaLabel": "Submit your answer by clicking here."
+        },
+        "_reset": {
+            "buttonText": "Reset",
+            "ariaLabel": "Reset the question by clicking here."
+        },
+        "_showCorrectAnswer": {
+            "buttonText": "Correct answer",
+            "ariaLabel": "Show the correct answer by clicking here."
+        },
+        "_hideCorrectAnswer": {
+            "buttonText": "My answer",
+            "ariaLabel": "Show the answer you gave by clicking here."
+        },
+        "_showFeedback": {
+            "buttonText": "Show feedback",
+            "ariaLabel": "View the question feedback again by clicking here."
+        },
+        "remainingAttemptsText": "attempts remaining",
+        "remainingAttemptText": "final attempt",
+        "disabledAriaLabel": "This button is disabled at the moment."
+    },
     "_pageLevelProgress": {
         "_isEnabled": true,
         "_altText": "of components completed on this page."
@@ -180,5 +188,5 @@
             "no": "No"
         }
     },
-    "_latestTrackingId": 18
+    "_latestTrackingId": 17
 }
