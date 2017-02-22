@@ -1,7 +1,19 @@
+.hotgrid-notify-container {
+	overflow: hidden;
+}
+
 .hotgrid-notify-body {
-	width: 82%;
+    padding-bottom: 0;
+
+    @media (max-width: @device-width-medium) {
+        padding-bottom: @notify-title-padding-bottom;
+    }
 }
 
 .hotgrid-notify-graphic {
-	width: 16%;
+	padding-bottom: 0;
+
+	@media (max-width: @device-width-medium) {
+		width: 100%;
+	}
 }

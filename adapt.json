@@ -25,6 +25,7 @@
         "adapt-contrib-languagePicker": "*",
         "adapt-hotgrid": "*",
         "adapt-quicknav": "*",
-        "adapt-youtube": "*"
+        "adapt-youtube": "*",
+        "adapt-drawerPageNavigation": "*"
     }
 }
