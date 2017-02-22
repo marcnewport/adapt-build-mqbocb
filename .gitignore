@@ -1,13 +1,25 @@
-builds
-bower_components
-node_modules
-buildkit
+# Ignore all installable modules via the adapt cli
+src/components/*
+src/extensions/*
+src/menu/adapt-contrib-boxMenu
+src/theme/adapt-contrib-vanilla
+
+# You may want to include non-installable extensions (eg. custom components)
+#!src/components/adapt-contrib-accordion
+
+# Include build so we may serve it on github pages
+#build
+
+# Ignore all third party installables
+*.zip
 .buildkit
-rub
-rub.bat
-_assets
-rub-check.log
-rubconfig.json.tmp
 .DS_Store
 .idea
-*.zip
+_assets
+bower_components
+buildkit
+node_modules
+rub
+rub.bat
+rub-check.log
+rubconfig.json.tmp
