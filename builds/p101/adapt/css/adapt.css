@@ -1609,7 +1609,13 @@ button {
 .media-component .mejs-overlay-button {
   background-image: url(../../assets/bigplay.svg);
 }
+.media-component.mejs-dark .mejs-overlay-button {
+  background-image: url(../../assets/bigplay-dark.svg);
+}
 .media-component .no-svg .mejs-overlay-button {
+  background-image: url(../../assets/bigplay.png);
+}
+.media-component.mejs-dark .no-svg .mejs-overlay-button {
   background-image: url(../../assets/bigplay.png);
 }
 .media-component .mejs-overlay-loading,
@@ -6424,6 +6430,24 @@ select {
     width: auto;
   }
 }
+.menu .menu-item {
+  float: left;
+}
+.menu .menu-item.nth-child-even .menu-item-inner {
+  margin-left: 0;
+}
+.dir-rtl .menu .menu-item.nth-child-even .menu-item-inner {
+  margin-right: 0;
+}
+.menu .menu-item.nth-child-odd {
+  clear: none;
+}
+.menu .menu-item.nth-child-odd .menu-item-inner {
+  margin-right: 0;
+}
+.dir-rtl .menu .menu-item.nth-child-odd .menu-item-inner {
+  margin-left: 0;
+}
 @media all and (min-width: 920px) {
   .menu .menu-item {
     width: 32%;
@@ -6442,8 +6466,11 @@ select {
     width: 48%;
     margin: 0 2% 2% 0;
   }
-  .menu .menu-item .nth-child-even {
+  .menu .menu-item.nth-child-even {
     margin-right: 0;
+  }
+  .menu .menu-item.nth-child-odd {
+    clear: left;
   }
 }
 @media all and (max-width: 540px) {
@@ -6451,21 +6478,6 @@ select {
     width: 100%;
     margin: 0 0 15px 0;
   }
-}
-.menu .menu-item.nth-child-even .menu-item-inner {
-  margin-left: 0;
-}
-.dir-rtl .menu .menu-item.nth-child-even .menu-item-inner {
-  margin-right: 0;
-}
-.menu .menu-item.nth-child-odd {
-  clear: none;
-}
-.menu .menu-item.nth-child-odd .menu-item-inner {
-  margin-right: 0;
-}
-.dir-rtl .menu .menu-item.nth-child-odd .menu-item-inner {
-  margin-left: 0;
 }
 .menu .menu-item-inner {
   position: relative;
@@ -7207,20 +7219,23 @@ select {
 .no-opacity #hotgraphic-shadow {
   background-image: url('assets/transparency-dark.png');
 }
-.hotgrid-notify-body {
-  width: 82%;
+.hotgrid-notify-container {
+  overflow: hidden;
 }
-@media all and (max-width: 520px) {
+.hotgrid-notify-body {
+  padding-bottom: 0;
+}
+@media (max-width: 760px) {
   .hotgrid-notify-body {
-    width: 55%;
+    padding-bottom: 25px;
   }
 }
 .hotgrid-notify-graphic {
-  width: 16%;
+  padding-bottom: 0;
 }
-@media all and (max-width: 520px) {
+@media (max-width: 760px) {
   .hotgrid-notify-graphic {
-    width: 40%;
+    width: 100%;
   }
 }
 @font-face {
@@ -8574,6 +8589,9 @@ select {
   background-image: url("assets/block-image-background.jpg");
   background-position: center;
   background-size: cover;
+}
+q {
+  font-style: italic;
 }
 .transition-all-colors {
   -webkit-transition: background-color 0.25s ease-in, color 0.25s ease-in, border-color 0.25s ease-in;

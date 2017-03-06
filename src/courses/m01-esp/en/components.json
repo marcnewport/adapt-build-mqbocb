@@ -389,7 +389,7 @@
         "_parentId": "b-315",
         "_type": "component",
         "_component": "media",
-        "_classes": "",
+        "_classes": "mejs-dark",
         "_layout": "full",
         "_setCompletionOn": "play",
         "_useClosedCaptions": true,

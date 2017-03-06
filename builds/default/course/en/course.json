@@ -1,4 +1,35 @@
 {
+    "_id": "course",
+    "_type": "course",
+    "title": "Adapt Version 2.0 demonstration",
+    "displayTitle": "Adapt Version 2.0 demonstration",
+    "description": "A sample course demonstrating the capabilities of the Adapt Version 2.0",
+    "body": "Welcome to the demonstration build for Version 2.0 of the Adapt framework.<br><br>We’ve added some major new items of functionality to Adapt for this release, most notably accessibility to WAI level AA, Right to Left language support and greatly improved assessments. If you’d like to find out more about this, along with the the other improvements we’ve made then please read the release notes (Link to follow for demo).               ",
+    "_buttons": {
+        "_submit": {
+            "buttonText": "Submit",
+            "ariaLabel": "Submit your answer by clicking here."
+        },
+        "_reset": {
+            "buttonText": "Reset",
+            "ariaLabel": "Reset the question by clicking here."
+        },
+        "_showCorrectAnswer": {
+            "buttonText": "Correct answer",
+            "ariaLabel": "Show the correct answer by clicking here."
+        },
+        "_hideCorrectAnswer": {
+            "buttonText": "My answer",
+            "ariaLabel": "Show the answer you gave by clicking here."
+        },
+        "_showFeedback": {
+            "buttonText": "Show feedback",
+            "ariaLabel": "View the question feedback again by clicking here."
+        },
+        "remainingAttemptsText": "attempts remaining",
+        "remainingAttemptText": "final attempt",
+        "disabledAriaLabel": "This button is disabled at the moment."
+    },
     "_globals": {
         "_components": {
             "_accordion": {
@@ -12,7 +43,6 @@
             },
             "_hotgraphic": {
                 "ariaRegion": "Below is a component which allows you to select hot spots over an image. Select a hot spot to trigger a popup that includes an image with display text. Select the close button to close the popup.",
-                "ariaPoupupLabel": "Hotgraphic popup",
                 "ariaPopupLabel": "Hotgraphic popup"
             },
             "_matching": {
@@ -36,13 +66,6 @@
             },
             "_textinput": {
                 "ariaRegion": "This question component requires you to input your answer in the textbox provided. When you have answered the question select the submit button below."
-            },
-            "_hotgrid": {
-                "ariaRegion": "This component contains selectable grid items. Select an item to trigger a popup that includes an image with display text. Select the close button to close the popup."
-            },
-            "_youtube": {
-                "ariaRegion": "This is a media component which displays a YouTube video. Select the play / pause button to watch it.",
-                "transcriptButton": "Alternatively you can select the link below for the transcript."
             }
         },
         "_extensions": {
@@ -100,37 +123,6 @@
                 "visited": "Visited"
             }
         }
-    },
-    "_id": "course",
-    "_type": "course",
-    "title": "Adapt Version 2.0 demonstration",
-    "displayTitle": "Adapt Version 2.0 demonstration",
-    "description": "A sample course demonstrating the capabilities of the Adapt Version 2.0",
-    "body": "Welcome to the demonstration build for Version 2.0 of the Adapt framework.<br><br>We’ve added some major new items of functionality to Adapt for this release, most notably accessibility to WAI level AA, Right to Left language support and greatly improved assessments. If you’d like to find out more about this, along with the the other improvements we’ve made then please read the release notes (Link to follow for demo).               ",
-    "_buttons": {
-        "_submit": {
-            "buttonText": "Submit",
-            "ariaLabel": "Submit your answer by clicking here."
-        },
-        "_reset": {
-            "buttonText": "Reset",
-            "ariaLabel": "Reset the question by clicking here."
-        },
-        "_showCorrectAnswer": {
-            "buttonText": "Correct answer",
-            "ariaLabel": "Show the correct answer by clicking here."
-        },
-        "_hideCorrectAnswer": {
-            "buttonText": "My answer",
-            "ariaLabel": "Show the answer you gave by clicking here."
-        },
-        "_showFeedback": {
-            "buttonText": "Show feedback",
-            "ariaLabel": "View the question feedback again by clicking here."
-        },
-        "remainingAttemptsText": "attempts remaining",
-        "remainingAttemptText": "final attempt",
-        "disabledAriaLabel": "This button is disabled at the moment."
     },
     "_latestTrackingId": 20,
     "_pageLevelProgress": {

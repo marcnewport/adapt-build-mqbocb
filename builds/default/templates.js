@@ -1483,118 +1483,118 @@ define("templates",["handlebars"],function(Handlebars){Handlebars.templates={};H
 },"useData":true});Handlebars.templates['article']=Handlebars.template({"1":function(container,depth0,helpers,partials,data) {
     var stack1, helper;
 
-  return "        <div class=\"article-title\">\n            <div role=\"heading\" tabindex=\"0\" class=\"article-title-inner h2\"  aria-level=\"2\">\n                "
+  return "        <div class=\"article-title\">\r\n            <div role=\"heading\" tabindex=\"0\" class=\"article-title-inner h2\"  aria-level=\"2\">\r\n                "
     + ((stack1 = ((helper = (helper = helpers.displayTitle || (depth0 != null ? depth0.displayTitle : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : {},{"name":"displayTitle","hash":{},"data":data}) : helper))) != null ? stack1 : "")
-    + "\n            </div>\n        </div>\n";
+    + "\r\n            </div>\r\n        </div>\r\n";
 },"3":function(container,depth0,helpers,partials,data) {
     var stack1;
 
-  return "        <div class=\"article-body\">\n            <div class=\"article-body-inner\">\n                "
+  return "        <div class=\"article-body\">\r\n            <div class=\"article-body-inner\">\r\n                "
     + ((stack1 = (helpers.a11y_text || (depth0 && depth0.a11y_text) || helpers.helperMissing).call(depth0 != null ? depth0 : {},(depth0 != null ? depth0.body : depth0),{"name":"a11y_text","hash":{},"data":data})) != null ? stack1 : "")
-    + "\n            </div>\n        </div>\n";
+    + "\r\n            </div>\r\n        </div>\r\n";
 },"5":function(container,depth0,helpers,partials,data) {
     var stack1;
 
-  return "        <div class=\"article-instruction\">\n            <div class=\"article-instruction-inner\">\n                "
+  return "        <div class=\"article-instruction\">\r\n            <div class=\"article-instruction-inner\">\r\n                "
     + ((stack1 = (helpers.a11y_text || (depth0 && depth0.a11y_text) || helpers.helperMissing).call(depth0 != null ? depth0 : {},(depth0 != null ? depth0.instruction : depth0),{"name":"a11y_text","hash":{},"data":data})) != null ? stack1 : "")
-    + "\n            </div>\n        </div>\n";
+    + "\r\n            </div>\r\n        </div>\r\n";
 },"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
     var stack1;
 
-  return "<div class=\"article-inner block-container\">\n\n    <div class=\"article-header\">\n"
+  return "<div class=\"article-inner block-container\">\r\n\r\n    <div class=\"article-header\">\r\n"
     + ((stack1 = helpers["if"].call(depth0 != null ? depth0 : {},(depth0 != null ? depth0.displayTitle : depth0),{"name":"if","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
-    + "\n"
+    + "\r\n"
     + ((stack1 = helpers["if"].call(depth0 != null ? depth0 : {},(depth0 != null ? depth0.body : depth0),{"name":"if","hash":{},"fn":container.program(3, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
-    + "\n"
+    + "\r\n"
     + ((stack1 = helpers["if"].call(depth0 != null ? depth0 : {},(depth0 != null ? depth0.instruction : depth0),{"name":"if","hash":{},"fn":container.program(5, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
-    + "    </div>\n\n</div>\n";
+    + "    </div>\r\n\r\n</div>\r\n";
 },"useData":true});Handlebars.templates['block']=Handlebars.template({"1":function(container,depth0,helpers,partials,data) {
     var stack1, helper;
 
-  return "        <div class=\"block-title\">\n            <div role=\"heading\" tabindex=\"0\" class=\"block-title-inner h3\"  aria-level=\"3\">\n                "
+  return "        <div class=\"block-title\">\r\n            <div role=\"heading\" tabindex=\"0\" class=\"block-title-inner h3\"  aria-level=\"3\">\r\n                "
     + ((stack1 = ((helper = (helper = helpers.displayTitle || (depth0 != null ? depth0.displayTitle : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : {},{"name":"displayTitle","hash":{},"data":data}) : helper))) != null ? stack1 : "")
-    + "\n            </div>\n        </div>\n";
+    + "\r\n            </div>\r\n        </div>\r\n";
 },"3":function(container,depth0,helpers,partials,data) {
     var stack1;
 
-  return "        <div class=\"block-body\">\n            <div class=\"block-body-inner\">\n                "
+  return "        <div class=\"block-body\">\r\n            <div class=\"block-body-inner\">\r\n                "
     + ((stack1 = (helpers.a11y_text || (depth0 && depth0.a11y_text) || helpers.helperMissing).call(depth0 != null ? depth0 : {},(depth0 != null ? depth0.body : depth0),{"name":"a11y_text","hash":{},"data":data})) != null ? stack1 : "")
-    + "\n            </div>\n        </div>\n";
+    + "\r\n            </div>\r\n        </div>\r\n";
 },"5":function(container,depth0,helpers,partials,data) {
     var stack1;
 
-  return "        <div class=\"block-instruction\">\n            <div class=\"block-instruction-inner\">\n                "
+  return "        <div class=\"block-instruction\">\r\n            <div class=\"block-instruction-inner\">\r\n                "
     + ((stack1 = (helpers.a11y_text || (depth0 && depth0.a11y_text) || helpers.helperMissing).call(depth0 != null ? depth0 : {},(depth0 != null ? depth0.instruction : depth0),{"name":"a11y_text","hash":{},"data":data})) != null ? stack1 : "")
-    + "\n            </div>\n        </div>\n";
+    + "\r\n            </div>\r\n        </div>\r\n";
 },"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
     var stack1;
 
-  return "<div class=\"block-inner\">\n"
+  return "<div class=\"block-inner\">\r\n"
     + ((stack1 = helpers["if"].call(depth0 != null ? depth0 : {},(depth0 != null ? depth0.displayTitle : depth0),{"name":"if","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
-    + "\n"
+    + "\r\n"
     + ((stack1 = helpers["if"].call(depth0 != null ? depth0 : {},(depth0 != null ? depth0.body : depth0),{"name":"if","hash":{},"fn":container.program(3, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
-    + "\n"
+    + "\r\n"
     + ((stack1 = helpers["if"].call(depth0 != null ? depth0 : {},(depth0 != null ? depth0.instruction : depth0),{"name":"if","hash":{},"fn":container.program(5, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
-    + "\n    <div class=\"component-container\">\n    </div>\n</div>";
+    + "\r\n    <div class=\"component-container\">\r\n    </div>\r\n</div>";
 },"useData":true});Handlebars.templates['buttons']=Handlebars.template({"1":function(container,depth0,helpers,partials,data) {
-    return "        <div class=\"buttons-marking-icon icon display-none\">\n        </div>\n";
+    return "        <div class=\"buttons-marking-icon icon display-none\">\r\n        </div>\r\n";
 },"3":function(container,depth0,helpers,partials,data) {
-    return "    <div class=\"buttons-display\">\n        <div class=\"buttons-marking-icon icon display-none\">\n        </div>\n        <div class=\"buttons-display-inner\">\n        </div>\n    </div>\n";
+    return "    <div class=\"buttons-display\">\r\n        <div class=\"buttons-marking-icon icon display-none\">\r\n        </div>\r\n        <div class=\"buttons-display-inner\">\r\n        </div>\r\n    </div>\r\n";
 },"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
     var stack1;
 
-  return "<div class=\"buttons-inner\">\n    <div class=\"buttons-cluster clearfix\">\n"
+  return "<div class=\"buttons-inner\">\r\n    <div class=\"buttons-cluster clearfix\">\r\n"
     + ((stack1 = helpers.unless.call(depth0 != null ? depth0 : {},(depth0 != null ? depth0._shouldDisplayAttempts : depth0),{"name":"unless","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
     + "        <button class=\"buttons-action\" aria-label=\""
     + container.escapeExpression(container.lambda(((stack1 = ((stack1 = (depth0 != null ? depth0._buttons : depth0)) != null ? stack1._submit : stack1)) != null ? stack1.ariaLabel : stack1), depth0))
     + "\">"
     + ((stack1 = container.lambda(((stack1 = ((stack1 = (depth0 != null ? depth0._buttons : depth0)) != null ? stack1._submit : stack1)) != null ? stack1.buttonText : stack1), depth0)) != null ? stack1 : "")
-    + "</button>\n        <button class=\"buttons-feedback\" aria-label=\""
+    + "</button>\r\n        <button class=\"buttons-feedback\" aria-label=\""
     + container.escapeExpression(container.lambda(((stack1 = ((stack1 = (depth0 != null ? depth0._buttons : depth0)) != null ? stack1._showFeedback : stack1)) != null ? stack1.ariaLabel : stack1), depth0))
     + "\" disabled=\"true\">"
     + ((stack1 = container.lambda(((stack1 = ((stack1 = (depth0 != null ? depth0._buttons : depth0)) != null ? stack1._showFeedback : stack1)) != null ? stack1.buttonText : stack1), depth0)) != null ? stack1 : "")
-    + "</button>\n    </div>\n"
+    + "</button>\r\n    </div>\r\n"
     + ((stack1 = helpers["if"].call(depth0 != null ? depth0 : {},(depth0 != null ? depth0._shouldDisplayAttempts : depth0),{"name":"if","hash":{},"fn":container.program(3, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
     + "</div>";
 },"useData":true});Handlebars.templates['drawer']=Handlebars.template({"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
     var stack1;
 
-  return "<div class=\"drawer-inner\">\n	<span class='aria-label prevent-default' tabindex='0' role='region'>"
+  return "<div class=\"drawer-inner\">\r\n	<span class='aria-label prevent-default' tabindex='0' role='region'>"
     + container.escapeExpression(container.lambda(((stack1 = ((stack1 = ((stack1 = (depth0 != null ? depth0._globals : depth0)) != null ? stack1._accessibility : stack1)) != null ? stack1._ariaLabels : stack1)) != null ? stack1.drawer : stack1), depth0))
-    + "</span>\n	<div class=\"drawer-holder\">\n	</div>\n	<div class=\"drawer-toolbar clearfix\">\n		<div class=\"drawer-back-button\">\n		<button class=\"base drawer-back icon icon-controls-small-left\" aria-label=\""
+    + "</span>\r\n	<div class=\"drawer-holder\">\r\n	</div>\r\n	<div class=\"drawer-toolbar clearfix\">\r\n		<div class=\"drawer-back-button\">\r\n		<button class=\"base drawer-back icon icon-controls-small-left\" aria-label=\""
     + container.escapeExpression(container.lambda(((stack1 = ((stack1 = ((stack1 = (depth0 != null ? depth0._globals : depth0)) != null ? stack1._accessibility : stack1)) != null ? stack1._ariaLabels : stack1)) != null ? stack1.previous : stack1), depth0))
-    + "\">\n		</button>\n		</div>\n		<div class=\"drawer-close-button\">\n		<button class=\"base drawer-close icon icon-cross\" aria-label=\""
+    + "\">\r\n		</button>\r\n		</div>\r\n		<div class=\"drawer-close-button\">\r\n		<button class=\"base drawer-close icon icon-cross\" aria-label=\""
     + container.escapeExpression(container.lambda(((stack1 = ((stack1 = ((stack1 = (depth0 != null ? depth0._globals : depth0)) != null ? stack1._accessibility : stack1)) != null ? stack1._ariaLabels : stack1)) != null ? stack1.closeDrawer : stack1), depth0))
-    + "\">\n		</button>\n		</div>\n	</div>\n</div>\n";
+    + "\">\r\n		</button>\r\n		</div>\r\n	</div>\r\n</div>\r\n";
 },"useData":true});Handlebars.templates['drawerItem']=Handlebars.template({"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
     var stack1, helper;
 
   return "<button class=\"base drawer-item-open "
     + container.escapeExpression(((helper = (helper = helpers.className || (depth0 != null ? depth0.className : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : {},{"name":"className","hash":{},"data":data}) : helper)))
-    + "\">\n	<div class=\"drawer-item-title\">\n		<div class=\"drawer-item-title-inner h5\">"
+    + "\">\r\n	<div class=\"drawer-item-title\">\r\n		<div class=\"drawer-item-title-inner h5\">"
     + ((stack1 = ((helper = (helper = helpers.title || (depth0 != null ? depth0.title : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : {},{"name":"title","hash":{},"data":data}) : helper))) != null ? stack1 : "")
-    + "</div>\n	</div>\n	<div class=\"drawer-item-description\">\n		<div class=\"drawer-item-description-inner\">"
+    + "</div>\r\n	</div>\r\n	<div class=\"drawer-item-description\">\r\n		<div class=\"drawer-item-description-inner\">"
     + ((stack1 = (helpers.a11y_text || (depth0 && depth0.a11y_text) || helpers.helperMissing).call(depth0 != null ? depth0 : {},(depth0 != null ? depth0.description : depth0),{"name":"a11y_text","hash":{},"data":data})) != null ? stack1 : "")
-    + "</div>\n	</div>\n</button>";
+    + "</div>\r\n	</div>\r\n</button>";
 },"useData":true});Handlebars.templates['loading']=Handlebars.template({"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
-    return "<div class=\"loading\">\n    <div class=\"loader-gif\"><div role=\"heading\" tabindex=\"0\" class=\"h3\" aria-level=\"1\">Loading...</div></div>\n</div>";
+    return "<div class=\"loading\">\r\n    <div class=\"loader-gif\"><div role=\"heading\" tabindex=\"0\" class=\"h3\" aria-level=\"1\">Loading...</div></div>\r\n</div>";
 },"useData":true});Handlebars.templates['navigation']=Handlebars.template({"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
     var stack1;
 
   return "<div class=\"navigation-inner clearfix\" role=\"navigation\" aria-label=\""
     + container.escapeExpression(container.lambda(((stack1 = ((stack1 = ((stack1 = (depth0 != null ? depth0._globals : depth0)) != null ? stack1._accessibility : stack1)) != null ? stack1._ariaLabels : stack1)) != null ? stack1.navigation : stack1), depth0))
-    + "\">\n    <button class=\"base navigation-back-button icon icon-controls-small-left\" data-event=\"backButton\" aria-label=\""
+    + "\">\r\n    <button class=\"base navigation-back-button icon icon-controls-small-left\" data-event=\"backButton\" aria-label=\""
     + container.escapeExpression(container.lambda(((stack1 = ((stack1 = ((stack1 = (depth0 != null ? depth0._globals : depth0)) != null ? stack1._accessibility : stack1)) != null ? stack1._ariaLabels : stack1)) != null ? stack1.previous : stack1), depth0))
-    + "\"></button>\n    <button class=\"base navigation-drawer-toggle-button icon icon-list\" data-event=\"toggleDrawer\" aria-label=\""
+    + "\"></button>\r\n    <button class=\"base navigation-drawer-toggle-button icon icon-list\" data-event=\"toggleDrawer\" aria-label=\""
     + container.escapeExpression(container.lambda(((stack1 = ((stack1 = ((stack1 = (depth0 != null ? depth0._globals : depth0)) != null ? stack1._accessibility : stack1)) != null ? stack1._ariaLabels : stack1)) != null ? stack1.navigationDrawer : stack1), depth0))
-    + "\"></button>\n</div>";
+    + "\"></button>\r\n</div>";
 },"useData":true});Handlebars.templates['notify']=Handlebars.template({"1":function(container,depth0,helpers,partials,data) {
     var stack1;
 
-  return "                    <div class=\"notify-popup-icon\">\n                        <div class=\"icon"
+  return "                    <div class=\"notify-popup-icon\">\r\n                        <div class=\"icon"
     + ((stack1 = (helpers.if_value_equals || (depth0 && depth0.if_value_equals) || helpers.helperMissing).call(depth0 != null ? depth0 : {},(depth0 != null ? depth0._type : depth0),"prompt",{"name":"if_value_equals","hash":{},"fn":container.program(2, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
     + ((stack1 = (helpers.if_value_equals || (depth0 && depth0.if_value_equals) || helpers.helperMissing).call(depth0 != null ? depth0 : {},(depth0 != null ? depth0._type : depth0),"alert",{"name":"if_value_equals","hash":{},"fn":container.program(4, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
-    + "\">\n                        </div>\n                    </div>\n";
+    + "\">\r\n                        </div>\r\n                    </div>\r\n";
 },"2":function(container,depth0,helpers,partials,data) {
     return " icon-question";
 },"4":function(container,depth0,helpers,partials,data) {
@@ -1602,29 +1602,29 @@ define("templates",["handlebars"],function(Handlebars){Handlebars.templates={};H
 },"6":function(container,depth0,helpers,partials,data) {
     var stack1, helper;
 
-  return "                    <div class=\"notify-popup-title\">\n                        <div class=\"notify-popup-title-inner h5\" tabindex=\"0\" role=\"heading\" aria-level=\"1\">\n                        "
+  return "                    <div class=\"notify-popup-title\">\r\n                        <div class=\"notify-popup-title-inner h5\" tabindex=\"0\" role=\"heading\" aria-level=\"1\">\r\n                        "
     + ((stack1 = ((helper = (helper = helpers.title || (depth0 != null ? depth0.title : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : {},{"name":"title","hash":{},"data":data}) : helper))) != null ? stack1 : "")
-    + "\n                        </div>\n                    </div>\n";
+    + "\r\n                        </div>\r\n                    </div>\r\n";
 },"8":function(container,depth0,helpers,partials,data) {
     var stack1;
 
-  return "                    <div class=\"notify-popup-body\">\n                        <div class=\"notify-popup-body-inner\">"
+  return "                    <div class=\"notify-popup-body\">\r\n                        <div class=\"notify-popup-body-inner\">"
     + ((stack1 = (helpers.a11y_text || (depth0 && depth0.a11y_text) || helpers.helperMissing).call(depth0 != null ? depth0 : {},(depth0 != null ? depth0.body : depth0),{"name":"a11y_text","hash":{},"data":data})) != null ? stack1 : "")
-    + "</div>\n                    </div>\n";
+    + "</div>\r\n                    </div>\r\n";
 },"10":function(container,depth0,helpers,partials,data) {
     var stack1, helper;
 
-  return "                    <div class=\"notify-popup-buttons\">\n                        <button class=\"notify-popup-button notify-popup-alert-button\" aria-label=\""
+  return "                    <div class=\"notify-popup-buttons\">\r\n                        <button class=\"notify-popup-button notify-popup-alert-button\" aria-label=\""
     + ((stack1 = ((helper = (helper = helpers.confirmText || (depth0 != null ? depth0.confirmText : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : {},{"name":"confirmText","hash":{},"data":data}) : helper))) != null ? stack1 : "")
     + "\">"
     + ((stack1 = ((helper = (helper = helpers.confirmText || (depth0 != null ? depth0.confirmText : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : {},{"name":"confirmText","hash":{},"data":data}) : helper))) != null ? stack1 : "")
-    + "</button>\n                    </div>\n";
+    + "</button>\r\n                    </div>\r\n";
 },"12":function(container,depth0,helpers,partials,data) {
     var stack1;
 
-  return "                    <div class=\"notify-popup-buttons\">\n"
+  return "                    <div class=\"notify-popup-buttons\">\r\n"
     + ((stack1 = helpers.each.call(depth0 != null ? depth0 : {},(depth0 != null ? depth0._prompts : depth0),{"name":"each","hash":{},"fn":container.program(13, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
-    + "                    </div>\n";
+    + "                    </div>\r\n";
 },"13":function(container,depth0,helpers,partials,data) {
     var stack1, helper;
 
@@ -1634,13 +1634,13 @@ define("templates",["handlebars"],function(Handlebars){Handlebars.templates={};H
     + ((stack1 = ((helper = (helper = helpers.promptText || (depth0 != null ? depth0.promptText : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : {},{"name":"promptText","hash":{},"data":data}) : helper))) != null ? stack1 : "")
     + "\">"
     + ((stack1 = ((helper = (helper = helpers.promptText || (depth0 != null ? depth0.promptText : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : {},{"name":"promptText","hash":{},"data":data}) : helper))) != null ? stack1 : "")
-    + "</button>\n";
+    + "</button>\r\n";
 },"15":function(container,depth0,helpers,partials,data) {
     var stack1;
 
   return "            <button class=\"base notify-popup-done\" aria-label=\""
     + container.escapeExpression(container.lambda(((stack1 = ((stack1 = ((stack1 = (depth0 != null ? depth0._globals : depth0)) != null ? stack1._accessibility : stack1)) != null ? stack1._ariaLabels : stack1)) != null ? stack1.closePopup : stack1), depth0))
-    + "\">\n                <div class=\"notify-popup-icon-close icon icon-cross\"></div>\n            </button>\n";
+    + "\">\r\n                <div class=\"notify-popup-icon-close icon icon-cross\"></div>\r\n            </button>\r\n";
 },"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
     var stack1, helper;
 
@@ -1650,123 +1650,123 @@ define("templates",["handlebars"],function(Handlebars){Handlebars.templates={};H
     + container.escapeExpression(((helper = (helper = helpers._classes || (depth0 != null ? depth0._classes : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : {},{"name":"_classes","hash":{},"data":data}) : helper)))
     + "\" role=\"region\" aria-label=\""
     + container.escapeExpression(container.lambda(((stack1 = ((stack1 = ((stack1 = (depth0 != null ? depth0._globals : depth0)) != null ? stack1._accessibility : stack1)) != null ? stack1._ariaLabels : stack1)) != null ? stack1.feedbackPopUp : stack1), depth0))
-    + "\">\n    <div class=\"notify-popup-inner\">\n        <div class=\"notify-popup-content\">\n            <div class=\"notify-popup-content-inner\">\n"
+    + "\">\r\n    <div class=\"notify-popup-inner\">\r\n        <div class=\"notify-popup-content\">\r\n            <div class=\"notify-popup-content-inner\">\r\n"
     + ((stack1 = helpers["if"].call(depth0 != null ? depth0 : {},(depth0 != null ? depth0._showIcon : depth0),{"name":"if","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
     + ((stack1 = helpers["if"].call(depth0 != null ? depth0 : {},(depth0 != null ? depth0.title : depth0),{"name":"if","hash":{},"fn":container.program(6, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
     + ((stack1 = helpers["if"].call(depth0 != null ? depth0 : {},(depth0 != null ? depth0.body : depth0),{"name":"if","hash":{},"fn":container.program(8, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
-    + "\n"
+    + "\r\n"
     + ((stack1 = (helpers.if_value_equals || (depth0 && depth0.if_value_equals) || helpers.helperMissing).call(depth0 != null ? depth0 : {},(depth0 != null ? depth0._type : depth0),"alert",{"name":"if_value_equals","hash":{},"fn":container.program(10, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
-    + "\n"
+    + "\r\n"
     + ((stack1 = (helpers.if_value_equals || (depth0 && depth0.if_value_equals) || helpers.helperMissing).call(depth0 != null ? depth0 : {},(depth0 != null ? depth0._type : depth0),"prompt",{"name":"if_value_equals","hash":{},"fn":container.program(12, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
-    + "\n            </div>\n        </div>\n"
+    + "\r\n            </div>\r\n        </div>\r\n"
     + ((stack1 = (helpers.if_value_equals || (depth0 && depth0.if_value_equals) || helpers.helperMissing).call(depth0 != null ? depth0 : {},(depth0 != null ? depth0._type : depth0),"popup",{"name":"if_value_equals","hash":{},"fn":container.program(15, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
-    + "    </div>\n</div>\n\n\n<div class=\"notify-shadow\"></div>\n";
+    + "    </div>\r\n</div>\r\n\r\n\r\n<div class=\"notify-shadow\"></div>\r\n";
 },"useData":true});Handlebars.templates['notifyPush']=Handlebars.template({"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
     var stack1, helper;
 
   return "<div class=\"notify-push-inner\" role=\"region\" aria-label=\""
     + container.escapeExpression(container.lambda(((stack1 = ((stack1 = ((stack1 = (depth0 != null ? depth0._globals : depth0)) != null ? stack1._accessibility : stack1)) != null ? stack1._ariaLabels : stack1)) != null ? stack1.feedbackPopUp : stack1), depth0))
-    + "\">\n	<div class=\"notify-push-title\">\n		<div class=\"notify-push-title-inner h5\" tabindex=\"0\" role=\"heading\" aria-level=\"1\">\n			"
+    + "\">\r\n	<div class=\"notify-push-title\">\r\n		<div class=\"notify-push-title-inner h5\" tabindex=\"0\" role=\"heading\" aria-level=\"1\">\r\n			"
     + ((stack1 = ((helper = (helper = helpers.title || (depth0 != null ? depth0.title : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : {},{"name":"title","hash":{},"data":data}) : helper))) != null ? stack1 : "")
-    + "\n		</div>\n	</div>\n	<div class=\"notify-push-body\">\n		<div class=\"notify-push-body-inner\">\n			"
+    + "\r\n		</div>\r\n	</div>\r\n	<div class=\"notify-push-body\">\r\n		<div class=\"notify-push-body-inner\">\r\n			"
     + ((stack1 = (helpers.a11y_text || (depth0 && depth0.a11y_text) || helpers.helperMissing).call(depth0 != null ? depth0 : {},(depth0 != null ? depth0.body : depth0),{"name":"a11y_text","hash":{},"data":data})) != null ? stack1 : "")
-    + "\n		</div>\n	</div>\n</div>\n<button class=\"base notify-push-close\" aria-label=\""
+    + "\r\n		</div>\r\n	</div>\r\n</div>\r\n<button class=\"base notify-push-close\" aria-label=\""
     + container.escapeExpression(container.lambda(((stack1 = ((stack1 = ((stack1 = (depth0 != null ? depth0._globals : depth0)) != null ? stack1._accessibility : stack1)) != null ? stack1._ariaLabels : stack1)) != null ? stack1.closePopup : stack1), depth0))
-    + "\">\n	<span class=\"icon icon-cross\"></span>\n</button>\n";
+    + "\">\r\n	<span class=\"icon icon-cross\"></span>\r\n</button>\r\n";
 },"useData":true});Handlebars.templates['page']=Handlebars.template({"1":function(container,depth0,helpers,partials,data) {
     var stack1, helper;
 
-  return "					    <div class=\"page-title\">\n					        <div class=\"page-title-inner h1\" tabindex=\"0\" role=\"heading\" aria-level=\"1\">\n					            "
+  return "					    <div class=\"page-title\">\r\n					        <div class=\"page-title-inner h1\" tabindex=\"0\" role=\"heading\" aria-level=\"1\">\r\n					            "
     + ((stack1 = ((helper = (helper = helpers.displayTitle || (depth0 != null ? depth0.displayTitle : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : {},{"name":"displayTitle","hash":{},"data":data}) : helper))) != null ? stack1 : "")
-    + "\n					        </div>\n					    </div>\n";
+    + "\r\n					        </div>\r\n					    </div>\r\n";
 },"3":function(container,depth0,helpers,partials,data) {
     var stack1;
 
-  return "					    <div class=\"page-body\">\n					        <div class=\"page-body-inner\">\n"
+  return "					    <div class=\"page-body\">\r\n					        <div class=\"page-body-inner\">\r\n"
     + ((stack1 = helpers["if"].call(depth0 != null ? depth0 : {},(depth0 != null ? depth0.pageBody : depth0),{"name":"if","hash":{},"fn":container.program(4, data, 0),"inverse":container.program(6, data, 0),"data":data})) != null ? stack1 : "")
-    + "					        </div>\n					    </div>\n";
+    + "					        </div>\r\n					    </div>\r\n";
 },"4":function(container,depth0,helpers,partials,data) {
     var stack1;
 
   return "					            	"
     + ((stack1 = (helpers.a11y_text || (depth0 && depth0.a11y_text) || helpers.helperMissing).call(depth0 != null ? depth0 : {},(depth0 != null ? depth0.pageBody : depth0),{"name":"a11y_text","hash":{},"data":data})) != null ? stack1 : "")
-    + "\n";
+    + "\r\n";
 },"6":function(container,depth0,helpers,partials,data) {
     var stack1;
 
   return "					            	"
     + ((stack1 = (helpers.a11y_text || (depth0 && depth0.a11y_text) || helpers.helperMissing).call(depth0 != null ? depth0 : {},(depth0 != null ? depth0.body : depth0),{"name":"a11y_text","hash":{},"data":data})) != null ? stack1 : "")
-    + "\n";
+    + "\r\n";
 },"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
     var stack1;
 
   return "<div class=\"page-inner article-container\" role=\"main\" aria-label=\""
     + container.escapeExpression(container.lambda(((stack1 = ((stack1 = ((stack1 = (depth0 != null ? depth0._globals : depth0)) != null ? stack1._accessibility : stack1)) != null ? stack1._ariaLabels : stack1)) != null ? stack1.page : stack1), depth0))
-    + "\">\n\n    	<div class=\"page-header\">\n    		<div class=\"page-header-inner clearfix\">\n\n    			<div class=\"page-header-content\">\n    				<div class=\"page-header-content-inner\">\n\n"
+    + "\">\r\n\r\n    	<div class=\"page-header\">\r\n    		<div class=\"page-header-inner clearfix\">\r\n\r\n    			<div class=\"page-header-content\">\r\n    				<div class=\"page-header-content-inner\">\r\n\r\n"
     + ((stack1 = helpers["if"].call(depth0 != null ? depth0 : {},(depth0 != null ? depth0.displayTitle : depth0),{"name":"if","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
-    + "\n"
+    + "\r\n"
     + ((stack1 = helpers["if"].call(depth0 != null ? depth0 : {},(depth0 != null ? depth0.body : depth0),{"name":"if","hash":{},"fn":container.program(3, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
-    + "\n    				</div>\n    			</div>\n\n    		</div>\n    	</div>\n\n</div>\n<div class=\"aria-label relative a11y-ignore-focus prevent-default\" tabindex=\"0\" role=\"region\">"
+    + "\r\n    				</div>\r\n    			</div>\r\n\r\n    		</div>\r\n    	</div>\r\n\r\n</div>\r\n<div class=\"aria-label relative a11y-ignore-focus prevent-default\" tabindex=\"0\" role=\"region\">"
     + container.escapeExpression(container.lambda(((stack1 = ((stack1 = ((stack1 = (depth0 != null ? depth0._globals : depth0)) != null ? stack1._accessibility : stack1)) != null ? stack1._ariaLabels : stack1)) != null ? stack1.pageEnd : stack1), depth0))
-    + "</div>\n";
+    + "</div>\r\n";
 },"useData":true});Handlebars.templates['shadow']=Handlebars.template({"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
     return "<div id=\"shadow\" class=\"shadow display-none\"></div>";
 },"useData":true});Handlebars.registerPartial('buttons',Handlebars.template({"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
     var stack1;
 
-  return "<button class=\"base button submit\">\n    <span>  \n        "
+  return "<button class=\"base button submit\">\r\n    <span>  \r\n        "
     + ((stack1 = container.lambda(((stack1 = (depth0 != null ? depth0._buttons : depth0)) != null ? stack1.submit : stack1), depth0)) != null ? stack1 : "")
-    + " \n    </span>\n</button>\n<button class=\"base button reset\">\n    <span>\n        "
+    + " \r\n    </span>\r\n</button>\r\n<button class=\"base button reset\">\r\n    <span>\r\n        "
     + ((stack1 = container.lambda(((stack1 = (depth0 != null ? depth0._buttons : depth0)) != null ? stack1.reset : stack1), depth0)) != null ? stack1 : "")
-    + " \n    </span>\n</button> \n<button class=\"base button model\">\n    <span> \n        "
+    + " \r\n    </span>\r\n</button> \r\n<button class=\"base button model\">\r\n    <span> \r\n        "
     + ((stack1 = container.lambda(((stack1 = (depth0 != null ? depth0._buttons : depth0)) != null ? stack1.showCorrectAnswer : stack1), depth0)) != null ? stack1 : "")
-    + " \n    </span>\n</button>\n<button class=\"base button user\">\n    <span>\n        "
+    + " \r\n    </span>\r\n</button>\r\n<button class=\"base button user\">\r\n    <span>\r\n        "
     + ((stack1 = container.lambda(((stack1 = (depth0 != null ? depth0._buttons : depth0)) != null ? stack1.hideCorrectAnswer : stack1), depth0)) != null ? stack1 : "")
-    + " \n    </span>\n</button>\n";
+    + " \r\n    </span>\r\n</button>\r\n";
 },"useData":true}));Handlebars.registerPartial('component',Handlebars.template({"1":function(container,depth0,helpers,partials,data) {
     var stack1, helper;
 
   return "        <div class=\""
     + container.escapeExpression(((helper = (helper = helpers._component || (depth0 != null ? depth0._component : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : {},{"name":"_component","hash":{},"data":data}) : helper)))
-    + "-title component-title\">\n            <div role=\"heading\" tabindex=\"0\" class=\""
+    + "-title component-title\">\r\n            <div role=\"heading\" tabindex=\"0\" class=\""
     + container.escapeExpression(((helper = (helper = helpers._component || (depth0 != null ? depth0._component : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : {},{"name":"_component","hash":{},"data":data}) : helper)))
-    + "-title-inner component-title-inner\"  aria-level=\"4\">\n                "
+    + "-title-inner component-title-inner\"  aria-level=\"4\">\r\n                "
     + ((stack1 = ((helper = (helper = helpers.displayTitle || (depth0 != null ? depth0.displayTitle : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : {},{"name":"displayTitle","hash":{},"data":data}) : helper))) != null ? stack1 : "")
-    + "\n            </div>\n        </div>\n";
+    + "\r\n            </div>\r\n        </div>\r\n";
 },"3":function(container,depth0,helpers,partials,data) {
     var stack1, helper;
 
   return "        <div class=\""
     + container.escapeExpression(((helper = (helper = helpers._component || (depth0 != null ? depth0._component : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : {},{"name":"_component","hash":{},"data":data}) : helper)))
-    + "-body component-body\">\n            <div class=\""
+    + "-body component-body\">\r\n            <div class=\""
     + container.escapeExpression(((helper = (helper = helpers._component || (depth0 != null ? depth0._component : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : {},{"name":"_component","hash":{},"data":data}) : helper)))
-    + "-body-inner component-body-inner\">\n                "
+    + "-body-inner component-body-inner\">\r\n                "
     + ((stack1 = (helpers.a11y_text || (depth0 && depth0.a11y_text) || helpers.helperMissing).call(depth0 != null ? depth0 : {},(depth0 != null ? depth0.body : depth0),{"name":"a11y_text","hash":{},"data":data})) != null ? stack1 : "")
-    + "\n            </div>\n        </div>\n";
+    + "\r\n            </div>\r\n        </div>\r\n";
 },"5":function(container,depth0,helpers,partials,data) {
     var stack1, helper;
 
   return "        <div class=\""
     + container.escapeExpression(((helper = (helper = helpers._component || (depth0 != null ? depth0._component : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : {},{"name":"_component","hash":{},"data":data}) : helper)))
-    + "-instruction component-instruction\">\n            <div class=\""
+    + "-instruction component-instruction\">\r\n            <div class=\""
     + container.escapeExpression(((helper = (helper = helpers._component || (depth0 != null ? depth0._component : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : {},{"name":"_component","hash":{},"data":data}) : helper)))
-    + "-instruction-inner component-instruction-inner\">\n                "
+    + "-instruction-inner component-instruction-inner\">\r\n                "
     + ((stack1 = (helpers.a11y_text || (depth0 && depth0.a11y_text) || helpers.helperMissing).call(depth0 != null ? depth0 : {},(depth0 != null ? depth0.instruction : depth0),{"name":"a11y_text","hash":{},"data":data})) != null ? stack1 : "")
-    + "\n            </div>\n        </div>\n";
+    + "\r\n            </div>\r\n        </div>\r\n";
 },"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
     var stack1, helper;
 
   return "<div class=\""
     + container.escapeExpression(((helper = (helper = helpers._component || (depth0 != null ? depth0._component : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : {},{"name":"_component","hash":{},"data":data}) : helper)))
-    + "-header component-header\">\n    <div class=\""
+    + "-header component-header\">\r\n    <div class=\""
     + container.escapeExpression(((helper = (helper = helpers._component || (depth0 != null ? depth0._component : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : {},{"name":"_component","hash":{},"data":data}) : helper)))
-    + "-header-inner component-header-inner\">\n\n"
+    + "-header-inner component-header-inner\">\r\n\r\n"
     + ((stack1 = helpers["if"].call(depth0 != null ? depth0 : {},(depth0 != null ? depth0.displayTitle : depth0),{"name":"if","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
-    + "        \n"
+    + "        \r\n"
     + ((stack1 = helpers["if"].call(depth0 != null ? depth0 : {},(depth0 != null ? depth0.body : depth0),{"name":"if","hash":{},"fn":container.program(3, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
-    + "        \n"
+    + "        \r\n"
     + ((stack1 = helpers["if"].call(depth0 != null ? depth0 : {},(depth0 != null ? depth0.instruction : depth0),{"name":"if","hash":{},"fn":container.program(5, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
-    + "\n    </div>\n</div>\n";
+    + "\r\n    </div>\r\n</div>\r\n";
 },"useData":true}));Handlebars.registerPartial('state',Handlebars.template({"1":function(container,depth0,helpers,partials,data) {
     var stack1;
 
@@ -1776,7 +1776,7 @@ define("templates",["handlebars"],function(Handlebars){Handlebars.templates={};H
     + container.escapeExpression(container.lambda(((stack1 = ((stack1 = ((stack1 = (depth0 != null ? depth0._globals : depth0)) != null ? stack1._accessibility : stack1)) != null ? stack1._ariaLabels : stack1)) != null ? stack1.complete : stack1), depth0))
     + " "
     + ((stack1 = helpers["if"].call(depth0 != null ? depth0 : {},(depth0 != null ? depth0._isQuestionType : depth0),{"name":"if","hash":{},"fn":container.program(2, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
-    + "</span>\n";
+    + "</span>\r\n";
 },"2":function(container,depth0,helpers,partials,data) {
     var stack1;
 
@@ -1800,11 +1800,11 @@ define("templates",["handlebars"],function(Handlebars){Handlebars.templates={};H
     + container.escapeExpression((helpers.a11y_normalize || (depth0 && depth0.a11y_normalize) || helpers.helperMissing).call(depth0 != null ? depth0 : {},(depth0 != null ? depth0.displayTitle : depth0),{"name":"a11y_normalize","hash":{},"data":data}))
     + " "
     + container.escapeExpression(container.lambda(((stack1 = ((stack1 = ((stack1 = (depth0 != null ? depth0._globals : depth0)) != null ? stack1._accessibility : stack1)) != null ? stack1._ariaLabels : stack1)) != null ? stack1.incomplete : stack1), depth0))
-    + "</span>\n";
+    + "</span>\r\n";
 },"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
     var stack1;
 
-  return "<div class=\"accessibility-state\">\n"
+  return "<div class=\"accessibility-state\">\r\n"
     + ((stack1 = helpers["if"].call(depth0 != null ? depth0 : {},(depth0 != null ? depth0._isComplete : depth0),{"name":"if","hash":{},"fn":container.program(1, data, 0),"inverse":container.program(8, data, 0),"data":data})) != null ? stack1 : "")
     + "</div>";
 },"useData":true}));Handlebars.templates['article']=Handlebars.template({"1":function(container,depth0,helpers,partials,data) {

@@ -11484,13 +11484,13 @@ define('components/adapt-hotgrid/js/adapt-hotgrid',['require','coreViews/compone
     var Adapt = require("coreJS/adapt");
 
     var Hotgrid = ComponentView.extend({
-
+ 
         events: {
             "click .hotgrid-item-image":"onItemClicked"
         },
-
+        
         isPopupOpen: false,
-
+        
         preRender: function () {
             var items = this.model.get('_items');
             _.each(items, function(item) {
@@ -11498,9 +11498,9 @@ define('components/adapt-hotgrid/js/adapt-hotgrid',['require','coreViews/compone
                     item._graphic.hasImageStates = true;
                 }
             }, this);
-
+            
             this.listenTo(Adapt, 'device:changed', this.resizeControl);
-
+            
             this.setDeviceSize();
         },
 
@@ -11571,7 +11571,7 @@ define('components/adapt-hotgrid/js/adapt-hotgrid',['require','coreViews/compone
                 this.evaluateCompletion();
             }, this));
         },
-
+        
         getVisitedItems: function() {
             return _.filter(this.model.get('_items'), function(item) {
                 return item.visited;
@@ -11583,13 +11583,13 @@ define('components/adapt-hotgrid/js/adapt-hotgrid',['require','coreViews/compone
                 this.setCompletionStatus();
             }
         }
-
+        
     },{
         template: "hotgrid"
     });
-
+    
     Adapt.register("hotgrid", Hotgrid);
-
+    
     return Hotgrid;
 
 });

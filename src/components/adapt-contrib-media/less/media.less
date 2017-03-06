@@ -85,7 +85,15 @@
         background-image: url(../../assets/bigplay.svg);
     }
 
+    &.mejs-dark .mejs-overlay-button {
+        background-image: url(../../assets/bigplay-dark.svg);
+    }
+
     .no-svg .mejs-overlay-button {
+        background-image: url(../../assets/bigplay.png);
+    }
+
+    &.mejs-dark .no-svg .mejs-overlay-button {
         background-image: url(../../assets/bigplay.png);
     }
 
@@ -116,7 +124,7 @@
             background-image: url(../../assets/controls.svg);
         }
     }
-    
+
     .accessibility.no-touch & {
         .mejs-controls .mejs-button {
             button:focus {
